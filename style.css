@@ -5,7 +5,7 @@
 */
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+
 }
 ol, ul {
 	list-style: none;
@@ -47,3 +48,74 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* ------ESTILO ESPECÍFICO -----------------*/
+
+body{
+	background-color: black;
+}
+
+.identidad{
+	display: flex;
+	gap: 2rem;
+}
+
+.nav1 {
+	display:flex;
+	gap: 2rem;
+	padding-right: 2rem;
+	padding-top: 2rem;
+}
+
+header { 
+	background-color: rgba(128, 9, 13, 0.644);
+	display: flex;
+	justify-content:space-between
+	
+}
+
+
+main{
+	display: flex;
+	padding-top: 10rem;
+	padding-left: 4rem;
+	padding-right: 4rem;
+	
+}
+
+.contenedor{ 
+	background-color: aquamarine;
+	width: 90%;
+	display: flex;
+	/*display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 2rem;
+	gap: 7rem;
+	justify-content:flex-end;*/
+
+
+}
+
+.contenido1{
+	background-color: rgb(236, 220, 146);
+	padding: 2rem;
+	
+	
+}
+
+.contenido2{
+	background-color: rgb(255, 154, 221);
+	padding: 2rem;
+
+	
+}
+
+.contenido3{
+	background-color: rgb(245, 149, 132);
+	padding: 2rem;
+
+
+	
+}
+
+
