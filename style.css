@@ -51,27 +51,64 @@ table {
 
 /* ------ESTILO ESPECÍFICO -----------------*/
 
+
+/* --cambiar fuente:*/
+h1{
+	color: white;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	line-height: 0.5rem;
+	padding-top: 1rem;
+
+}
+
+
+.subtitle
+{
+	color: white;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	line-height: 0rem;
+	font-size: 0.9rem;
+
+}
+
+a{
+	color:white;
+	text-decoration: none;
+}
+
+a:hover {
+	font-weight: 800;
+}
+
+/*-----CAMBIAR FUENTE*/
 body{
 	background-color: black;
+	color: white;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .identidad{
 	display: flex;
-	gap: 2rem;
+	gap: 0rem;
 }
 
+
+
 .nav1 {
+	
 	display:flex;
 	gap: 2rem;
 	padding-right: 2rem;
 	padding-top: 2rem;
+	color: white;
+
 }
 
 header { 
 	background-color: rgba(128, 9, 13, 0.644);
+	height: 6rem;
 	display: flex;
 	justify-content:space-between
-	
 }
 
 
@@ -84,38 +121,77 @@ main{
 }
 
 .contenedor{ 
-	background-color: aquamarine;
+	/*background-color: aquamarine;*/
 	width: 90%;
 	display: flex;
-	/*display: grid;
-	grid-template-columns: auto auto auto;
-	padding: 2rem;
-	gap: 7rem;
-	justify-content:flex-end;*/
+	max-width: 90%;
+	gap: 2rem;
 
 
 }
 
 .contenido1{
-	background-color: rgb(236, 220, 146);
+	/*background-color: rgb(236, 220, 146);*/
 	padding: 2rem;
 	
 	
 }
 
 .contenido2{
-	background-color: rgb(255, 154, 221);
+	/*background-color: rgb(255, 154, 221);*/
 	padding: 2rem;
 
 	
 }
 
 .contenido3{
-	background-color: rgb(245, 149, 132);
+	/*background-color: rgb(245, 149, 132);*/
 	padding: 2rem;
 
 
 	
 }
 
+@media  screen and (max-width:650px){
+
+
+
+
+
+
+.nav1 {
+	
+	display:flex;
+	flex-direction: column;
+	padding-right: 2rem;
+	color: white;
+	padding-left: 3rem;
+	line-height: 0;
+	padding-top: 0rem;
+
+}
+
+header { 
+	background-color: rgba(128, 9, 13, 0.644);
+	height: 21rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+}
+
+.contenedor{ 
+	display: flex;
+	flex-direction: column;
+	
+	}
+
+	.identidad{
+		display: flex;
+		gap: 0rem;
+	}
+	
+
+
+}
 
