@@ -1,0 +1,60 @@
+/*ABOUT*/
+
+.heroimg {
+	background: url(./img/about/hero-about.jpeg) center/cover;
+	height: 36rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	 }
+  
+  
+  .titulo-about{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .tituloa-bout > h2{
+  font-size: 4rem;
+  
+  }
+
+  .contenedor-about-2{
+	background-color: white;
+	min-height: 50rem;
+  }
+
+  .h3-about{
+	color: black;
+  }
+
+
+  .cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    padding: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.card img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+}
+.card h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+.card p {
+    font-size: 1em;
+    color: #666;
+}
