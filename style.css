@@ -50,15 +50,26 @@ table {
 
 /* ------ESTILO ESPECÍFICO -----------------*/
 
+/* ---- COLORES ---- */
+/* CSS HEX */
+:root {
+	--bittersweet: #ff595eff;
+	--tyrian-purple: #5c0029ff;
+	--violet-jtc: #61304bff;
+	--azul-claro: #94bfbeff;
+	--celadon: #acf7c1ff;
+}
+
 
 /* --cambiar fuente:*/
 h1{
-	color: white;
+	color: var(--celadon);
 	font-family: 'Philosopher', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	line-height: 0.5rem;
-	padding-top: 0.5rem;
+	padding-top: 0.5rem;	
 	font-size: 2.5rem;
 	font-weight: bold;
+
 
 }
 
@@ -91,11 +102,11 @@ h4{
 
 .subtitle
 {
-	color: white;
-	font-family: 'Philosopher', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: var(--celadon);
+	font-family:"Quicksand",'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	line-height: 0rem;
 	font-size: 1rem;
-	font-weight: bold;
+	
 	padding-left: 0.3rem;
 
 }
@@ -115,13 +126,10 @@ a:hover {
 /*-----CAMBIAR FUENTE*/
 body{
 	background-color: black;
+
 	font-family:"Quicksand",'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	color: white;
 	font-size: 1.2rem;
-	
-	
-	
-
 }
 
 .identidad{
@@ -144,7 +152,7 @@ body{
 }
 
 header { 
-	background-color: rgba(128, 9, 13, 0.644);
+	background-color: var(--tyrian-purple);
 	height: 6rem;
 	display: flex;
 	justify-content:space-between
@@ -203,7 +211,6 @@ main{
 }
 
 
-
 /*FOOTER*/
 
 footer{
@@ -211,6 +218,7 @@ footer{
     color: rgb(79, 79, 192);
     padding: 20px;
     text-align: center;
+	
   }
 
  .footer-content{
@@ -218,11 +226,13 @@ footer{
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 20px;
+	
  }
 
  .footer-section{
     width: 200px;
     margin: 10px;
+	
  }
 
  .footer-section p{
@@ -256,10 +266,6 @@ footer{
 
 
 @media  screen and (max-width:800px){
-
-
-
-
 
 
 .nav1 {
