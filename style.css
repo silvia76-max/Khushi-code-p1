@@ -202,7 +202,32 @@ main{
 	
 }
 
+/*ABOUT*/
 
+.heroimg {
+	background: url(./img/hero-about.jpeg) center/cover;
+	height: 36rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	 }
+  
+	 .contenedorabout{
+  
+	 }
+  
+  
+  .tituloabout{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .tituloabout > h2{
+  font-size: 5rem;
+  padding-bottom: 13rem;
+  
+  }
 
 /*FOOTER*/
 
