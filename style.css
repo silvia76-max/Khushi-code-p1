@@ -124,7 +124,6 @@ main{
 	/*background-color: aquamarine;*/
 	width: 90%;
 	display: flex;
-	max-width: 90%;
 	gap: 2rem;
 
 
@@ -147,10 +146,11 @@ main{
 .contenido3{
 	/*background-color: rgb(245, 149, 132);*/
 	padding: 2rem;
-
-
 	
 }
+
+
+
 
 @media  screen and (max-width:650px){
 
