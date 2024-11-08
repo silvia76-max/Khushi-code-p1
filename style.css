@@ -202,36 +202,7 @@ main{
 	
 }
 
-/*ABOUT*/
 
-.heroimg {
-	background: url(./img/hero-about.jpeg) center/cover;
-	height: 36rem;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	 }
-  
-  
-  .tituloabout{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-  }
-  
-  .tituloabout > h2{
-  font-size: 4rem;
-  
-  }
-
-  .contenedorabout2{
-	background-color: white;
-	height: 50rem;
-  }
-
-  .h3about{
-	color: black;
-  }
 
 /*FOOTER*/
 
