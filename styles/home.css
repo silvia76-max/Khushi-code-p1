@@ -7,6 +7,22 @@ body{
 
 }
 
+
+@keyframes slide {
+    from {
+      transform: translateX(100%);
+    }
+  
+    to {
+      transform: translateX(0%);
+    }
+  }
+  
+    
+  
+
+
+
 .contenedor {
     display: flex;
     flex-direction: row;
@@ -14,6 +30,9 @@ body{
     padding-bottom: 10rem;
     justify-content: flex-start;
     padding-top: 10rem;
+
+    animation-name: slide;
+    animation-duration: 3.5s;
   
   }
 
