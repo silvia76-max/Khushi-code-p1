@@ -26,8 +26,52 @@
   }
 
   .h3-about{
+    padding-top: 2rem;
 	color: black;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 0.2rem;
+
   }
+
+.subtitle-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.subtitle{
+  width: 50%; 
+  max-width: 250px; 
+  height: auto; 
+  margin-top: -1.5rem; 
+}
+
+
+.contenedor-p-img{
+  display: flex;
+  align-items: center;
+  margin-bottom: 8rem;
+}
+
+.cont-texto{
+  padding: 0rem 10rem 0 15rem;
+  justify-content: center;
+
+}
+
+.cont-img{
+  width: 30rem; 
+  height: auto;
+  padding-right: 17rem;
+}
+.quote{
+  color: black;
+  font-size: 1.7rem;
+ padding: 0rem 10rem 0 15rem;
+}
+
+
+/*alumnos*/
 
 
   .cards-container {
@@ -36,6 +80,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 20px;
+    padding-bottom: 3rem ;
 }
 .card {
     border: 1px solid #ddd;
