@@ -192,16 +192,42 @@ a {
 
 /*-----COLOR POR DEFINIR*/
 a:hover {
-  color: rgb(223, 151, 18);
+  color: var(--bittersweet);
 }
+
+
+.button {
+	background-color: var(--tyrian-purple); /* Green */
+	border: none;
+	border-radius: 0.5rem;
+	color: var(--celadon);
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-weight:500;
+	cursor: pointer;
+	transition-duration: 0.1s;
+  }
+
+  .button:hover{
+	background-color: var(--celadon);
+	color: var(--tyrian-purple);
+
+
+
+  }
+
 
 /*-----CAMBIAR FUENTE*/
 body {
   background-color: black;
-
   font-family: "Quicksand", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: var(--celadon);
   font-size: 1.2rem;
+
+ 
 }
 
 .identidad {
@@ -216,7 +242,7 @@ body {
   padding-top: 2rem;
   color: var(--celadon);
   font-family: "Quicksand", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: bold;
+  font-weight:600;
   font-size: 1.1rem;
 }
 
@@ -233,15 +259,17 @@ main {
   padding-bottom: 8rem;
 }
 
-.contenedor {
-  /*background-color: aquamarine;*/
-  display: flex;
-  padding-top: 3rem;
-
-  gap: 2rem;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
+.contenedor{ 
+	/*background-color: aquamarine;*/
+	display: flex;
+	padding-top: 3rem;
+	
+	gap: 2rem;
+	flex-direction:row;
+	justify-content: center;
+	align-content: center;
+	/*background-color: rgba(0, 0, 0, 0.616);
+	border-radius: 2rem;*/
 }
 
 .contenido1 {
@@ -262,10 +290,12 @@ main {
 
 .contenido3 {
   /*background-color: rgb(245, 149, 132);*/
+
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 6rem;
   padding-bottom: 1rem;
+ 
 }
 
 
@@ -325,12 +355,14 @@ footer {
     padding-right: 2rem;
     color: var(--celadon);
     padding-left: 3rem;
-    line-height: 0;
+    line-height: 0.5;
     padding-top: 0rem;
+	text-align: center;
+	font-size: larger;
+	
   }
 
   header {
-    background-color: rgba(128, 9, 13, 0.644);
     height: 21rem;
     display: flex;
     flex-direction: column;
