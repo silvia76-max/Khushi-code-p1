@@ -1,0 +1,26 @@
+.separador{
+    margin-top: ;
+    position: relative;
+}
+
+.separador::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 100%; /* Centrar horizontalmente */
+    transform: translateX(-20%); /* Centrar horizontalmente */
+
+    width: 150px; /* Ajusta el ancho */
+    height: 100px; /* Ajusta el alto */
+
+    background-image: url("../img/espadas-separador.svg");
+    background-size: 150px 150px; /* Ajusta el tamaño deseado */
+    background-repeat: no-repeat;
+
+    filter: invert(1) sepia(1) saturate(0) hue-rotate(0deg); /* Usa el https://angel-rs.github.io/css-color-filter-generator/ para cambiar los colores visualmente */
+}
+
+section{
+    border: 1px solid rgb(1, 69, 255);
+}
