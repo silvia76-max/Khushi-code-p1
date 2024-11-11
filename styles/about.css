@@ -30,62 +30,93 @@
   margin-bottom: 0.2rem;
 }
 
-
 .contenedor-p-img {
+  width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: 8rem;
   border: 1px solid black;
+  justify-content: space-around;
 }
 
 .cont-texto {
-  padding: 0rem 10rem 0 15rem;
-  justify-content: center;
+  width: 35%;
   border: 1px solid black;
 }
 
 .cont-img {
-  width: 100%;
+  width: 35%;
   height: auto;
-  padding-right: 17rem;
-  border-radius: 50%;
   border: 1px solid black;
+}
+
+.cont-q {
+  display: flex;
+  justify-content: center;
+  margin-top: -4rem;
 }
 
 .quote {
   color: black;
   font-size: 1.7rem;
-  text-align: center;
-  display: flex;
-  justify-content: center;
   border: 1px solid black;
 }
 
-.mision-vision{
+.mision-vision {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   border: 1px solid black;
   margin-top: 2.5rem;
   margin-bottom: 5rem;
 }
 
-.mision{
-  align-items: center;
+.mision {
+  width: 35%;
   border: 1px solid black;
 }
-.mision > h3{
+.mision > h3 {
   justify-content: center;
   align-items: center;
   border: 1px solid black;
 }
-.vision{
-  align-items: center;
+.vision {
+  width: 35%;
   border: 1px solid black;
 }
-.vision > h3{
+.vision > h3 {
   justify-content: center;
   align-items: center;
   border: 1px solid black;
+}
+
+/*maestros*/
+
+.maestro {
+  margin-bottom: 1.5rem; /* Espaciado entre los maestros */
+}
+
+.h4-about {
+text-align: center;
+margin-bottom: 1.5rem;
+}
+
+.contenido {
+  display: flex;
+  justify-content: center;
+  align-items: space-around; /* Alinea verticalmente al principio */
+}
+
+.contenido p {
+  width: 30%; /* El párrafo ocupa el espacio disponible */
+  margin: 0;
+  margin-right: 20px; /* Espacio entre el párrafo y la imagen */
+}
+
+.contenido img {
+  width: 20%; /* Ajusta el ancho de las imágenes */
+  height: auto;
+  object-fit: cover; /* Mantiene las proporciones de la imagen */
 }
 /*alumnos*/
 
@@ -124,14 +155,13 @@
 .separador {
   margin-top: ;
   position: relative;
-  margin-top: 10rem;
 }
 
 .separador::before {
   content: "";
   display: block;
   position: absolute;
-  top: 0;
+  top: -5.5rem;
   left: 50%; /* Centrar horizontalmente */
   transform: translateX(-50%); /* Centrar horizontalmente */
   width: 150px; /* Ajusta el ancho */
