@@ -144,10 +144,21 @@ h1 {
   color: var(--celadon);
   font-family: "Philosopher", "Gill Sans MT", Calibri, "Trebuchet MS",
     sans-serif;
+  font-size: 2.3rem;
+  font-weight: bold;
+  line-height: 0.3rem;
+}
+
+.tituloHeader{
+  color: var(--celadon);
+  font-family: "Philosopher", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
   line-height: 0.5rem;
   padding-top: 0.5rem;
   font-size: 2.5rem;
   font-weight: bold;
+  padding-top: 2rem;
+
 }
 
 h2 {
@@ -176,23 +187,26 @@ h4 {
   font-size: 1.3rem;
 }
 
-.subtitle {
+
+
+.subtitleHead {
   color: var(--celadon);
   font-family: "Quicksand", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  line-height: 0rem;
-  font-size: 1rem;
 
+  font-size: 1rem;
+  padding-top: 1.3rem;
   padding-left: 0.3rem;
 }
+
 
 a {
   color: var(--celadon);
   text-decoration: none;
 }
 
-/*-----COLOR POR DEFINIR*/
+
 a:hover {
-  color: var(--bittersweet);
+  color: var(--azul-claro);
 }
 
 
@@ -215,32 +229,10 @@ a:hover {
 	background-color: var(--celadon);
 	color: var(--tyrian-purple);
 
-
-
   }
 
-  
-
-
-/*ANIMACIÓN*/
-
-@keyframes slide{
-  from {background-color:var(--tyrian-purple)}
-  to {background-color: var(--violet-jtc)}
-  }
-  
-  .divAnimado {
-  width: 100%;
-
-  background-color: red;
-  animation-name: slide;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  }
-
-
-body {
-  background-color: black;
+  body {
+  /*background-color: black;*/
   font-family: "Quicksand", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: var(--celadon);
   font-size: 1.2rem;
@@ -256,11 +248,12 @@ body {
   display: flex;
   gap: 2rem;
   padding-right: 2rem;
-  padding-top: 2rem;
+  padding-top: 2.3rem;
   color: var(--celadon);
   font-family: "Quicksand", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight:600;
   font-size: 1.1rem;
+  text-transform: uppercase;
 }
 
 header {
@@ -321,17 +314,12 @@ section{
 }
 
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 92a42907b3bac76f631ced787f52ac9d6a9c4d5f
 /*FOOTER*/
 
 footer {
   background-color: #333;
   color:  #fff;
-  padding: 20px;
+  
   font-size: 16px;
 }
 
@@ -358,7 +346,7 @@ footer {
 }
 
 .footer-section ul li{
-     margin: 8px;
+     margin: 6px;
 }
 
 .footer { 
@@ -369,11 +357,18 @@ footer {
 
 .footer-bottom{
    text-align: center;
-   padding: 30px;
-   background-color: #252222;
+   padding: 0.5rem;
+    background-color: #252222;
    color: white;
    font-size: 15px;
+  
 }
+
+.redessociales{
+  font-size: 1.5rem;
+}
+
+
 
 @media screen and (max-width: 800px) {
   .nav1 {
@@ -401,7 +396,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 0rem;
-    padding-bottom: 10rem;
+  
   
   }
 
@@ -409,5 +404,14 @@ footer {
     display: flex;
     gap: 0rem;
   }
-}
 
+  .footer-content{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    border-top: 1px solid#444;
+ }
+ footer{
+  padding: 0;
+ }
+}
