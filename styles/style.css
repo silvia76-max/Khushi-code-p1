@@ -325,6 +325,7 @@ section{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 80dfb1f01e267a39926c4c6e784144e6daf0da71
@@ -334,54 +335,59 @@ section{
 >>>>>>> 041f142f2d853cf35cd715d1d3d462d99ac48488
 >>>>>>> 7d4b120d1706045d346baf55c15dbc2f6a5e23a1
 =======
+=======
+
+
+=======
+>>>>>>> cf80155954c9324a4dce72af0fe9766d9be511af
 >>>>>>> 92a42907b3bac76f631ced787f52ac9d6a9c4d5f
 /*FOOTER*/
 
 footer {
-  background-color: #120f0f;
-  color: rgb(79, 79, 192);
+  background-color: #333;
+  color:  #fff;
   padding: 20px;
-  text-align: center;
+  font-size: 16px;
 }
 
-.footer-content {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding: 20px;
+.footer-content{
+   display: flex;
+   justify-content: space-around;
+   padding: 2rem;
+   border-top: 1px solid#444;
 }
 
-.footer-section {
-  width: 200px;
-  margin: 10px;
+.footer-section{
+     text-align: center;
 }
 
-.footer-section p {
-  font-size: 18px;
-  color: var(--celadon);
-  margin-bottom: 10px;
+.footer-section h3{
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #f0f0f0;
 }
 
-.social a img {
-  width: 24px;
-  height: 24px;
-  margin: 05px;
-  vertical-align: middle;
+.footer-section ul{
+   list-style: none;
+   padding: 0;
 }
-.search input {
-  padding: 8px;
-  width: 90%;
-  border-radius: 3px;
-  border: none;
+
+.footer-section ul li{
+     margin: 8px;
 }
-.footer-bottom {
-  border-bottom: 10px solid #5e5a5a;
-  padding: 10px;
-  font-size: 12px;
-  color: #777;
+
+.footer { 
+  position: absolute; 
+  bottom: 0; 
+  left: 0; 
 }
-.footer-bottom a:hover {
-  color: #777;
+
+.footer-bottom{
+   text-align: center;
+   padding: 30px;
+   background-color: #252222;
+   color: white;
+   font-size: 15px;
 }
 
 @media screen and (max-width: 800px) {
