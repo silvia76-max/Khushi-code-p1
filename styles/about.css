@@ -1,8 +1,8 @@
 /*ABOUT*/
 
 .heroimg {
-  background: url(../img/about/hero-about.jpeg) center/cover;
-  height: 36rem;
+  background: url(../img/about/hero-about.jpeg) bottom/cover;
+  height: 20rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,10 +12,17 @@
   margin: 0 auto;
 }
 
-.titulo-about > h2 {
+.titulo-about > h1 {
   font-size: 4.5rem;
+
+}
+p{
+  color: rgb(36, 36, 36);
 }
 
+h2, h3 {
+  color:var(--tyrian-purple);
+}
 .contenedor-about-2 {
   background-color: white;
   min-height: 50rem;
@@ -24,7 +31,7 @@
 
 .h3-about {
   padding-top: 2rem;
-  color: black;
+  color: var(--tyrian-purple);
   font-size: 3rem;
   text-align: center;
   margin-bottom: 0.2rem;
@@ -55,7 +62,7 @@
 }
 
 .quote {
-  color: black;
+  color: var(--tyrian-purple);
   font-size: 1.7rem;
 }
 
@@ -121,8 +128,7 @@ color: var(--violet-jtc);
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 20px;
-  padding-bottom: 3rem;
-  margin-bottom: 4rem;
+  padding-bottom: 5rem;
 }
 .card {
   border: 1px solid #ddd;
@@ -131,7 +137,7 @@ color: var(--violet-jtc);
   padding: 1rem;
   box-shadow: 0.25rem 0.25rem 0.25rem var(--tyrian-purple);
   text-align: center;
-  background-color: rgb(205, 180, 247);
+  background-color: rgba(205, 180, 247, 0.562);
 }
 .card img {
   border-radius: 0.5rem;
@@ -147,7 +153,7 @@ color: var(--violet-jtc);
 .card p {
   font-size: 1em;
   text-align: center;
-  color: var(--violet-jtc);
+  color: rgb(36, 36, 36);
 }
 .h3-about{
   text-justify: center;
@@ -177,6 +183,9 @@ color: var(--violet-jtc);
 }
 
 
+
+/*hover*/
+
 .cont-img:hover {
   transition: width 1s;
   width: 21%;
@@ -189,6 +198,8 @@ color: var(--violet-jtc);
   box-shadow: 3px 3px 3px var(--violet-jtc);
 }
 
-.card img:hover{
-
+.card:hover{
+  transition: width 1s;
+  width: 17%;
+  box-shadow: 3px 3px 3px var(--violet-jtc);
 }
