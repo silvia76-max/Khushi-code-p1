@@ -34,20 +34,18 @@
   width: 100%;
   display: flex;
   align-items: center;
-  margin-bottom: 8rem;
-  border: 1px solid black;
-  justify-content: space-around;
+  margin-bottom: 8rem;  
+  justify-content: space-evenly;
 }
 
 .cont-texto {
   width: 35%;
-  border: 1px solid black;
 }
 
 .cont-img {
-  width: 35%;
+  width: 20%;
   height: auto;
-  border: 1px solid black;
+  border-radius: 5%;
 }
 
 .cont-q {
@@ -59,41 +57,33 @@
 .quote {
   color: black;
   font-size: 1.7rem;
-  border: 1px solid black;
 }
 
 .mision-vision {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  border: 1px solid black;
   margin-top: 2.5rem;
   margin-bottom: 5rem;
 }
 
 .mision {
   width: 35%;
-  border: 1px solid black;
 }
 .mision > h3 {
-  justify-content: center;
   align-items: center;
-  border: 1px solid black;
 }
 .vision {
   width: 35%;
-  border: 1px solid black;
 }
 .vision > h3 {
-  justify-content: center;
   align-items: center;
-  border: 1px solid black;
 }
 
 /*maestros*/
 
 .maestro {
-  margin-bottom: 1.5rem; /* Espaciado entre los maestros */
+  margin-bottom: 1.5rem; 
 }
 
 .h4-about {
@@ -102,21 +92,25 @@ margin-bottom: 1.5rem;
 }
 
 .contenido {
+  width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: space-around; /* Alinea verticalmente al principio */
+  justify-content: space-evenly;
+  align-items: center; 
+  margin-bottom: 5rem;
 }
 
 .contenido p {
-  width: 30%; /* El párrafo ocupa el espacio disponible */
+  width: 30%; 
   margin: 0;
-  margin-right: 20px; /* Espacio entre el párrafo y la imagen */
+  margin-right: 20px; 
+
 }
 
 .contenido img {
-  width: 20%; /* Ajusta el ancho de las imágenes */
+  width: 15%; 
   height: auto;
-  object-fit: cover; /* Mantiene las proporciones de la imagen */
+  border-radius: 5%;
+  object-fit: cover; 
 }
 /*alumnos*/
 
@@ -127,29 +121,36 @@ margin-bottom: 1.5rem;
   flex-wrap: wrap;
   padding: 20px;
   padding-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 .card {
   border: 1px solid #ddd;
-  border-radius: 8px;
-  width: 300px;
-  padding: 16px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  width: 18.75rem;
+  padding: 1rem;
+  box-shadow: 0.25rem 0.25rem 0.25rem var(--tyrian-purple);; 
   text-align: center;
+  background-color: rgb(205, 180, 247);
 }
 .card img {
-  border-radius: 8px;
+  border-radius: 0.5rem;
   width: 100%;
   height: auto;
+  box-shadow:var(--tyrian-purple);
 }
 .card h3 {
-  margin-top: 10px;
+  margin-top: 0.6px;
   font-size: 1.5em;
+  color: var(--tyrian-purple);
 }
 .card p {
   font-size: 1em;
-  color: #666;
+  text-align: center;
+  color: var(--violet-jtc);
 }
-
+.h3-about{
+  text-justify: center;
+}
 /*SEPARADOR*/
 
 .separador {
@@ -162,14 +163,31 @@ margin-bottom: 1.5rem;
   display: block;
   position: absolute;
   top: -5.5rem;
-  left: 50%; /* Centrar horizontalmente */
-  transform: translateX(-50%); /* Centrar horizontalmente */
-  width: 150px; /* Ajusta el ancho */
-  height: 100px; /* Ajusta el alto */
+  left: 50%; 
+  transform: translateX(-50%); 
+  width: 150px; 
+  height: 100px; 
 
   background-image: url("../img/espadas-separador.svg");
-  background-size: 150px 150px; /* Ajusta el tamaño deseado */
+  background-size: 150px 150px; 
   background-repeat: no-repeat;
 
-  filter: invert(1) sepia(1) saturate(0) hue-rotate(0deg); /* Usa el https://angel-rs.github.io/css-color-filter-generator/ para cambiar los colores visualmente */
+  filter: invert(1) sepia(1) saturate(0) hue-rotate(0deg);
+}
+
+
+.cont-img:hover {
+  transition: width 1s;
+  width: 21%;
+  box-shadow: 3px 3px 3px var(--violet-jtc);
+}
+
+.contenido img:hover{
+  transition: width 1s;
+  width: 16%;
+  box-shadow: 3px 3px 3px var(--violet-jtc);
+}
+
+.card img:hover{
+
 }
