@@ -1,0 +1,175 @@
+/*ABOUT*/
+
+.heroimg {
+  background: url(../img/about/hero-about.jpeg) center/cover;
+  height: 36rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo-about {
+  margin: 0 auto;
+}
+
+.titulo-about > h2 {
+  font-size: 4.5rem;
+}
+
+.contenedor-about-2 {
+  background-color: white;
+  min-height: 50rem;
+  color: var(--bittersweet);
+}
+
+.h3-about {
+  padding-top: 2rem;
+  color: black;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 0.2rem;
+}
+
+.contenedor-p-img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8rem;
+  border: 1px solid black;
+  justify-content: space-around;
+}
+
+.cont-texto {
+  width: 35%;
+  border: 1px solid black;
+}
+
+.cont-img {
+  width: 35%;
+  height: auto;
+  border: 1px solid black;
+}
+
+.cont-q {
+  display: flex;
+  justify-content: center;
+  margin-top: -4rem;
+}
+
+.quote {
+  color: black;
+  font-size: 1.7rem;
+  border: 1px solid black;
+}
+
+.mision-vision {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid black;
+  margin-top: 2.5rem;
+  margin-bottom: 5rem;
+}
+
+.mision {
+  width: 35%;
+  border: 1px solid black;
+}
+.mision > h3 {
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+.vision {
+  width: 35%;
+  border: 1px solid black;
+}
+.vision > h3 {
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+/*maestros*/
+
+.maestro {
+  margin-bottom: 1.5rem; /* Espaciado entre los maestros */
+}
+
+.h4-about {
+text-align: center;
+margin-bottom: 1.5rem;
+}
+
+.contenido {
+  display: flex;
+  justify-content: center;
+  align-items: space-around; /* Alinea verticalmente al principio */
+}
+
+.contenido p {
+  width: 30%; /* El párrafo ocupa el espacio disponible */
+  margin: 0;
+  margin-right: 20px; /* Espacio entre el párrafo y la imagen */
+}
+
+.contenido img {
+  width: 20%; /* Ajusta el ancho de las imágenes */
+  height: auto;
+  object-fit: cover; /* Mantiene las proporciones de la imagen */
+}
+/*alumnos*/
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  padding-bottom: 3rem;
+}
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  padding: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.card img {
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+}
+.card h3 {
+  margin-top: 10px;
+  font-size: 1.5em;
+}
+.card p {
+  font-size: 1em;
+  color: #666;
+}
+
+/*SEPARADOR*/
+
+.separador {
+  margin-top: ;
+  position: relative;
+}
+
+.separador::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5.5rem;
+  left: 50%; /* Centrar horizontalmente */
+  transform: translateX(-50%); /* Centrar horizontalmente */
+  width: 150px; /* Ajusta el ancho */
+  height: 100px; /* Ajusta el alto */
+
+  background-image: url("../img/espadas-separador.svg");
+  background-size: 150px 150px; /* Ajusta el tamaño deseado */
+  background-repeat: no-repeat;
+
+  filter: invert(1) sepia(1) saturate(0) hue-rotate(0deg); /* Usa el https://angel-rs.github.io/css-color-filter-generator/ para cambiar los colores visualmente */
+}

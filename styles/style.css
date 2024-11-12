@@ -277,6 +277,11 @@ main {
   padding-bottom: 8rem;
 }
 
+section{
+  padding: 1rem;
+  margin: 2rem 0;
+}
+
 .contenedor{ 
 	/*background-color: aquamarine;*/
 	display: flex;
@@ -317,8 +322,11 @@ main {
 }
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 92a42907b3bac76f631ced787f52ac9d6a9c4d5f
 /*FOOTER*/
 
 footer {
