@@ -277,6 +277,11 @@ main {
   padding-bottom: 8rem;
 }
 
+section{
+  padding: 1rem;
+  margin: 2rem 0;
+}
+
 .contenedor{ 
 	/*background-color: aquamarine;*/
 	display: flex;
@@ -319,6 +324,7 @@ main {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 80dfb1f01e267a39926c4c6e784144e6daf0da71
@@ -327,6 +333,8 @@ main {
 =======
 >>>>>>> 041f142f2d853cf35cd715d1d3d462d99ac48488
 >>>>>>> 7d4b120d1706045d346baf55c15dbc2f6a5e23a1
+=======
+>>>>>>> 92a42907b3bac76f631ced787f52ac9d6a9c4d5f
 /*FOOTER*/
 
 footer {
