@@ -192,7 +192,7 @@ a {
 
 /*-----COLOR POR DEFINIR*/
 a:hover {
-  color: var(--bittersweet);
+  color: var(--azul-claro);
 }
 
 
@@ -229,18 +229,11 @@ a:hover {
   to {background-color: var(--violet-jtc)}
   }
   
-  .divAnimado {
-  width: 100%;
-
-  background-color: red;
-  animation-name: slide;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  }
+ 
 
 
 body {
-  background-color: black;
+  /*background-color: black;*/
   font-family: "Quicksand", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: var(--celadon);
   font-size: 1.2rem;
@@ -322,11 +315,8 @@ section{
 }
 
 
-<<<<<<< HEAD
 
 
-=======
->>>>>>> 92a42907b3bac76f631ced787f52ac9d6a9c4d5f
 /*FOOTER*/
 
 footer {
@@ -359,7 +349,7 @@ footer {
 }
 
 .footer-section ul li{
-     margin: 8px;
+     margin: 6px;
 }
 
 .footer { 
@@ -370,10 +360,15 @@ footer {
 
 .footer-bottom{
    text-align: center;
-   padding: 30px;
-   background-color: #252222;
+   padding: 1rem;
+    background-color: #252222;
    color: white;
    font-size: 15px;
+  
+}
+
+.redessociales{
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 800px) {
@@ -410,5 +405,15 @@ footer {
     display: flex;
     gap: 0rem;
   }
+
+  .footer-content{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    border-top: 1px solid#444;
+ }
+ footer{
+  padding: 0;
+ }
 }
 
