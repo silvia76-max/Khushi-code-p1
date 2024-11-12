@@ -6,6 +6,7 @@
       display: flex;
       flex-wrap: wrap;
       align-items: normal;
+      background-color:  rgb(137, 164, 147);
         }
 
   .container__cards {
@@ -38,7 +39,6 @@
    .cover__card img{
       width: 110%;
       height: 300px;
-      border-color: solid black;
       box-sizing: border-box;
       box-shadow:var(--tyrian-purple);
       }
@@ -48,13 +48,16 @@
       font-weight: 400;
       text-align: center;
       margin-top:20px;
+      margin-bottom: 20px;
       color: var(--tyrian-purple);
     }
   .description__card p{
       font-size: 25px;
       font-weight: 100px;
       text-align: center;
-      color: var(--violet-jtc);
+      color: rgb(26, 3, 26);
+      margin-top: 20px;
+      margin-bottom: 20px;
       }
 
    .description__card input {
