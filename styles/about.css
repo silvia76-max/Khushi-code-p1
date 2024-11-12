@@ -143,3 +143,4 @@
 
   filter: invert(1) sepia(1) saturate(0) hue-rotate(0deg); /* Usa el https://angel-rs.github.io/css-color-filter-generator/ para cambiar los colores visualmente */
 }
+ 
