@@ -10,7 +10,7 @@
 
   .container__cards {
         width: 300px;
-        margin: 15px;
+        margin: 2rem;
         display: flex;
         flex-direction: row;
         gap: 20px;
@@ -27,6 +27,7 @@
           border-radius: 10px;
           background-color: rgb(205, 180, 247);
          }
+
    .cover__card{
         width: 300px;
         height: 180px;
