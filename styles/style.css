@@ -144,10 +144,21 @@ h1 {
   color: var(--celadon);
   font-family: "Philosopher", "Gill Sans MT", Calibri, "Trebuchet MS",
     sans-serif;
+  font-size: 2.3rem;
+  font-weight: bold;
+  line-height: 0.3rem;
+}
+
+.tituloHeader{
+  color: var(--celadon);
+  font-family: "Philosopher", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
   line-height: 0.5rem;
   padding-top: 0.5rem;
   font-size: 2.5rem;
   font-weight: bold;
+  padding-top: 2rem;
+
 }
 
 h2 {
@@ -176,21 +187,24 @@ h4 {
   font-size: 1.3rem;
 }
 
-.subtitle {
+
+
+.subtitleHead {
   color: var(--celadon);
   font-family: "Quicksand", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  line-height: 0rem;
-  font-size: 1rem;
 
+  font-size: 1rem;
+  padding-top: 1.3rem;
   padding-left: 0.3rem;
 }
+
 
 a {
   color: var(--celadon);
   text-decoration: none;
 }
 
-/*-----COLOR POR DEFINIR*/
+
 a:hover {
   color: var(--azul-claro);
 }
@@ -215,24 +229,9 @@ a:hover {
 	background-color: var(--celadon);
 	color: var(--tyrian-purple);
 
-
-
   }
 
-  
-
-
-/*ANIMACIÓN*/
-
-@keyframes slide{
-  from {background-color:var(--tyrian-purple)}
-  to {background-color: var(--violet-jtc)}
-  }
-  
- 
-
-
-body {
+  body {
   /*background-color: black;*/
   font-family: "Quicksand", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: var(--celadon);
@@ -250,11 +249,12 @@ body {
   display: flex;
   gap: 2rem;
   padding-right: 2rem;
-  padding-top: 2rem;
+  padding-top: 2.3rem;
   color: var(--celadon);
   font-family: "Quicksand", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight:600;
   font-size: 1.1rem;
+  text-transform: uppercase;
 }
 
 header {
@@ -315,14 +315,12 @@ section{
 }
 
 
-
-
 /*FOOTER*/
 
 footer {
   background-color: #333;
   color:  #fff;
-  padding: 20px;
+  
   font-size: 16px;
 }
 
@@ -360,7 +358,7 @@ footer {
 
 .footer-bottom{
    text-align: center;
-   padding: 1rem;
+   padding: 0.5rem;
     background-color: #252222;
    color: white;
    font-size: 15px;
@@ -370,6 +368,8 @@ footer {
 .redessociales{
   font-size: 1.5rem;
 }
+
+
 
 @media screen and (max-width: 800px) {
   .nav1 {
@@ -397,7 +397,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 0rem;
-    padding-bottom: 10rem;
+  
   
   }
 
@@ -416,4 +416,3 @@ footer {
   padding: 0;
  }
 }
-
