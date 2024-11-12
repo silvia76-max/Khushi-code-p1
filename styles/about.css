@@ -89,6 +89,7 @@
 .h4-about {
 text-align: center;
 margin-bottom: 1.5rem;
+color: var(--violet-jtc);
 }
 
 .contenido {
@@ -128,7 +129,7 @@ margin-bottom: 1.5rem;
   border-radius: 0.5rem;
   width: 18.75rem;
   padding: 1rem;
-  box-shadow: 0.25rem 0.25rem 0.25rem var(--tyrian-purple);; 
+  box-shadow: 0.25rem 0.25rem 0.25rem var(--tyrian-purple);
   text-align: center;
   background-color: rgb(205, 180, 247);
 }
