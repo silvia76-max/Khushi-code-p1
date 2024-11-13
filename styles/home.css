@@ -4,8 +4,20 @@ body{
     background-repeat: no-repeat;
     background-size: 1800px;  
     background-position-x: 200px;
+    background-color: black;
 
 }
+
+.subtitleContent {
+  color: var(--celadon);
+  font-family: "Quicksand", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 1rem;
+  font-size: 1rem;
+  
+  
+}
+
+
 
 
 @keyframes slide {
@@ -18,11 +30,7 @@ body{
     }
   }
   
-    
   
-
-
-
 .contenedor {
     display: flex;
     flex-direction: row;

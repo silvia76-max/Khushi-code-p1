@@ -7,40 +7,48 @@
         --azul-claro: #94bfbeff;
         --celadon: #acf7c1ff;
         }
-    h1 { color: whitesmoke;
-         font-family: "Philosopher", "Gill Sans MT", Calibri, "Trebuchet MS",
-         sans-serif;
-         line-height: 0.5rem;
-         padding-top: 0.5rem;
-         font-size: 2.5rem;
-         font-weight: bold;
-          }
-     h2 {  color: var(--azul-claro);
-            font-family: "Philosopher", "Gill Sans MT", Calibri, "Trebuchet MS",
-              sans-serif;
-            padding-top: 1rem;
-            font-size: 2rem;
-            font-weight: bold;
-            margin-top: 10px;
-            gap: 10px;
-          }    
-     h3 { color:var(--celadon);
-            font-family: "Philosopher", "Gill Sans MT", Calibri, "Trebuchet MS",
-              sans-serif;
-            padding-top: 1rem;
-            font-size: 1.1rem;
-            font-weight: bold;
-          }
-     p {
-        color: var(--celadon);
-        font-family: "Philosopher", "Gill Sans MT", Calibri, "Trebuchet MS",
-          sans-serif;
-        font-size: 0.5rem;
-        padding-top: 1rem;
-        font-size: 1.3rem;
-        margin-top: 10px;
-        gap: 10px;
-       }
-    
-       
+
+  body {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(137, 164, 147);
+        } 
    
+  h2 {
+      color: var(--tyrian-purple);
+      font-family: "Philosopher", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      padding-top: 1rem;
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    
+    h3 {
+      color:rgb(59, 1, 59);
+      font-family: "Philosopher", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      padding-top: 1rem;
+      font-size:2rem;
+      font-weight: bold;
+    }
+    
+    h4 {
+      color:purple;
+      font-family: "Philosopher", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      padding-top: 1rem;
+      font-size: 1.8rem;
+    }
+   
+    p { color: var(--tyrian-purple);
+      font-family: "Philosopher", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      padding-top: 1rem;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+     
+ 
+     
+    
