@@ -196,23 +196,23 @@ h2, h3 {
 }
 
 
-
 /*hover*/
 
 .cont-img:hover {
-  transition: width 1s;
-  width: 21%;
+  transition: 500ms;
+  -webkit-filter: grayscale(50%); 
+  filter: grayscale(50%);
   box-shadow: 3px 3px 3px var(--violet-jtc);
 }
 
 .contenido img:hover{
-  transition: width 1s;
-  width: 16%;
+  transition: 500ms;
+  -webkit-filter: grayscale(50%); 
+  filter: grayscale(50%);
   box-shadow: 3px 3px 3px var(--violet-jtc);
 }
 
 .card:hover{
-  transition: width 1s;
-  width: 17%;
-  box-shadow: 3px 3px 3px var(--violet-jtc);
+  box-shadow: 10px 10px 10px var(--violet-jtc);
 }
+
