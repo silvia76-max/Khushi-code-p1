@@ -48,183 +48,108 @@
       font-weight: bold;
     }
 
-    .container1 {
+     .container1 {
           width: 100%;
-          height: auto;
+          height: 500px;
           display: flex;
           flex-wrap: wrap;
-          position: relative;
           margin: 10px;
           justify-content:center;
           box-sizing: content-box;
          }
 
     .container1 img{
-      width:40%;
+         width:40%;
+         height: auto;
+         border-radius: 15px;
       
         }
 
     .contenido1 {
-          width: 100%;
-          height: 200px;
+          width: 80%;
+          height: auto;
           
          }    
-         
-
-      
-     .container2 {
+    .container2 {
             width: 100%;
+            height: 400px;
             display: flex;
             flex-wrap: wrap;
             margin: 10px;
-            position: relative;
             justify-content:center;
             box-sizing: content-box;
             } 
    
-     .container2 img {
-            width:500px ;
-            height:400px ;    
-            border-radius: 10px;
+    .container2 img {
+            width:40% ;
+            height:auto;    
+            border-radius: 15px;
            } 
         
         .contenido2 {
-           width: 60%;
-           margin: 30px;
-           padding: 10px;
+           width: 80%;
+           height: auto;
+          
             }
           
      .container3 {
           width: 100%;
+          height: 400px;
           display: flex;
           flex-wrap: wrap;
           margin: 10px;
-          position: relative;
-          justify-content:center;
+         justify-content:center;
           box-sizing: content-box;
           } 
  
      .container3 img {
-          width:500px ;
-          height:400px ;    
-          border-radius: 10px;
+          width: 40%;
+          height:auto ;    
+          border-radius: 15px;
          } 
       
       .contenido3 {
-            width: 60%;
-            margin: 30px;
-            padding: 10px;
-           justify-content:center ;
-           box-sizing: content-box;
+            width: 80%;
+            height: auto;
           } 
-     .container2 img{
-            width:30% ;
-            float: right;
-              }
-      
-     .contenido2{
+      .container4 {
             width: 100%;
-            height: 300px;
-            float:left;
-            }
-     
-
-     .container3 {
-      width:90%;
-      display: flex;
-      flex-wrap: wrap;
-      margin: 10px;
-      justify-content:center ;
-      box-sizing: content-box;
-     }
-
-    .container3 img{
-            width:30% ;
-            float: right;
-              }
-      
-     .contenido3 {
-            width: 100%;
-            height: 300px;
-            float:left;
-            }
-
-
-     .container4 {
-            width: 100%;
+            height: 400px;
             display: flex;
             flex-wrap: wrap;
             margin: 10px;
-            position: relative;
             justify-content:center;
             box-sizing: content-box;
            } 
  
-     .container4 img {
-          width:500px ;
-          height:400px ;    
-          border-radius: 10px;
+      .container4 img {
+          width:40%;
+          height:auto ;    
+          border-radius: 15px;
          
          }
       .contenido4 {
-          width: 60%;
-          margin: 30px;
-          padding: 10px;
-              } 
-      .container5 {
-            width: 100%;
-            display: flex;
-            flex-wrap: wrap;
-            position: relative;
-            margin: 10px;
-            justify-content:center;
-            box-sizing: content-box;
-            } 
-
-     .container5 img {
-          width:500px ;
-          height:400px ;    
-          border-radius: 10px;
-           }
-      .contenido5 {
-           width: 60%;
-           margin: 30px;
-           padding: 10px;
-          width: 100%;
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: center;
-          margin: 20px;
-          box-sizing: content-box;
-      }
-     .container4 img{
-            width:30% ;
-            float: right;
-              }
-      
-     .contenido4 {
-            width: 100%;
-            height: 300px;
-            float:left;
-            }
+          width: 80%;
+          height: auto;
+         
+              }  
+     
      .container5 {
-          width:100px;
+          width:100%;
+          height: 400px;
           display: flex;
           flex-wrap: wrap;
           justify-content: center;
-          margin: 20px;
+          margin: 10px;
           box-sizing: content-box;
            } 
      .container5 img{
-            width:300px ;
-           
-              }
+            width:40%;
+            height: auto;
+            border-radius: 15px;
+           }
       
      .contenido5 {
-          width:90%;
-          display: flex;
-          flex-wrap: wrap;
-          margin: 10px;
-          justify-content:center ; 
-              
+          width: 80%;
+          height: auto;
                 }
