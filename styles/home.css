@@ -4,7 +4,7 @@ body{
     background-repeat: no-repeat;
     background-size: 1800px;  
     background-position-x: 200px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 
 }
 
@@ -13,13 +13,122 @@ body{
   font-family: "Quicksand", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   line-height: 1rem;
   font-size: 1rem;
-  
-  
+}
+
+.cont-inicio-1 {
+ padding-top: 4rem;
+  background-color: white;
+  min-height: 50rem;
+  color: var(--bittersweet);
+}
+
+/*bienvenidos*/
+.contenedor-p-img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8rem;  
+  justify-content: space-evenly;
+}
+
+.cont-p-inicio {
+  width: 30%;
+  color:black;
+}
+
+.cont-img-inicio {
+  width: 20%;
+  height: auto;
+  border-radius: 2rem;
+}
+/*CARDS*/
+
+.h3-inicio-membresia {
+  color: var(--tyrian-purple);
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: white;
+}
+.card {
+  border: 1px solid #cccccc;
+  border-radius: 2rem;
+  width: 18.75rem;
+  padding: 1rem;
+
+  text-align: center;
+  background-color: rgba(104, 104, 105, 0);
+}
+
+.card-2{
+  border: 1px solid #ddd;
+  border-radius: 2rem;
+  width: 18.75rem;
+  padding: 1rem;
+
+  text-align: center;
+  background-color: var(--tyrian-purple);
+}
+
+.card h3 {
+  margin-top: 0.6px;
+  font-size: 1.5em;
+  color: var(--tyrian-purple);
+}
+.card-2 h3 {
+  font-size: 1.5em;
+  color: var(--celadon);
+}
+.card p {
+  font-size: 1em;
+  text-align: center;
+  color: rgb(36, 36, 36);
+}
+.h3-about{
+  text-justify: center;
+}
+
+ul {
+  list-style-type: disc; /* Mantiene el estilo del disco */
+  padding-left: 0; /* Quita el padding por defecto */
+}
+
+li {
+  text-align: left; /* Alinea el texto de los ítems a la izquierda */
+  margin-left: 20px; /* Espacio entre el bullet y el texto */
 }
 
 
+/*Separador*/
 
+.separador {
+  margin-top: ;
+  position: relative;
+}
 
+.separador::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5.5rem;
+  left: 50%; 
+  transform: translateX(-50%); 
+  width: 150px; 
+  height: 100px; 
+
+  background-image: url("../img/espadas-separador.svg");
+  background-size: 150px 150px; 
+  background-repeat: no-repeat;
+
+  filter: invert(1) sepia(1) saturate(0) hue-rotate(0deg);
+}
 @keyframes slide {
     from {
      filter: opacity(0%);
