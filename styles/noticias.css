@@ -1,37 +1,45 @@
 * {
 	box-sizing: border-box;
   }
-  
+
+
   body {
-	background: #f1f1f1;
+	background:  #f1f1f1;
   }
-  
-  
+ 
+
   .header-blog {
 	padding: 20px;
 	font-size: 40px;
 	text-align: center;
-	background: white;
+	background: rgb(175, 1, 88);
   }
-  
   
   .column {
+	display: flex;
+	flex-direction: column;
 	align-items: center;
 	width: 60%;
+	margin: 0 auto;
   }
   
   .cont-img {
 	background-color: #ffffff;
-	width: 10%;
+	width: 100%;
 	padding: 10px;
+	display: flex;
+	justify-content: center;
   }
-  
-  .cont-img {
-	background-color: #ffffff;
-	width: 10%;
-	padding: 10px;
+   .card h2{
+	 color: rgb(153, 3, 73);
   }
-
+  .card h5{
+	color: rgb(153, 3, 73);
+  }
+  .card p{
+	color: rgb(153, 3, 73);
+  }
+   
   
   /* Add a card effect for articles */
   .card {
@@ -39,4 +47,5 @@
 	padding: 20px;
 	margin-top: 20px;
   }
+
   
