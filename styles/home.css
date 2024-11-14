@@ -72,7 +72,6 @@ body{
   border-radius: 2rem;
   width: 18.75rem;
   padding: 1rem;
-
   text-align: center;
   background-color: var(--tyrian-purple);
 }
@@ -86,6 +85,8 @@ body{
   font-size: 1.5em;
   color: var(--celadon);
 }
+
+
 .card p {
   font-size: 1em;
   text-align: center;
@@ -95,16 +96,44 @@ body{
   text-justify: center;
 }
 
-ul {
-  list-style-type: disc; /* Mantiene el estilo del disco */
-  padding-left: 0; /* Quita el padding por defecto */
+.card ul {
+  list-style-type: disc; 
+  padding-left: 0; 
+}
+.card-2 ul{
+  list-style-type: disc; 
+  padding-left: 0; 
 }
 
-li {
-  text-align: left; /* Alinea el texto de los ítems a la izquierda */
-  margin-left: 20px; /* Espacio entre el bullet y el texto */
+.card li {
+  text-align: left;
+  margin-left: 20px; 
+  color: black;
 }
 
+.card-2 li{
+  text-align: left; 
+  margin-left: 20px; 
+  color:white;
+}
+
+/*opiniones*/
+.contenedor-p-img-3{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 8rem;
+  margin-bottom: 8rem;  
+  justify-content: space-evenly;
+  margin-top: -1rem;
+}
+
+.h3-inicio-opiniones {
+  color: var(--tyrian-purple);
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 8rem;
+}
 
 /*Separador*/
 
