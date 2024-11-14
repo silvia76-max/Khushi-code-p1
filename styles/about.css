@@ -59,6 +59,7 @@ h2, h3 {
   display: flex;
   justify-content: center;
   margin-top: -4rem;
+  padding: 2rem 0 2rem 0;
 }
 
 .quote {
@@ -72,6 +73,8 @@ h2, h3 {
   justify-content: space-around;
   margin-top: 2.5rem;
   margin-bottom: 5rem;
+  padding-bottom: 3rem;
+  background-color: #acf7c13f;
 }
 
 .mision {
@@ -89,29 +92,19 @@ h2, h3 {
 
 /*maestros*/
 
-.maestro {
-  margin-bottom: 1.5rem; 
-}
-
-.h4-about {
-text-align: center;
-margin-bottom: 1.5rem;
-color: var(--violet-jtc);
-}
 
 .contenido {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center; 
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 .contenido p {
   width: 30%; 
   margin: 0;
   margin-right: 20px; 
-
 }
 
 .contenido img {
@@ -137,7 +130,7 @@ color: var(--violet-jtc);
   padding: 1rem;
   box-shadow: 0.25rem 0.25rem 0.25rem var(--tyrian-purple);
   text-align: center;
-  background-color: rgba(205, 180, 247, 0.562);
+  background-color: rgba(205, 180, 247, 0.438);
 }
 .card img {
   border-radius: 0.5rem;
@@ -158,6 +151,26 @@ color: var(--violet-jtc);
 .h3-about{
   text-justify: center;
 }
+
+/*boton*/
+.cont-boton{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.cont-boton-ult{
+  display: flex;
+  justify-content: center;
+  margin-top: -2rem;
+  margin-bottom: 7rem;
+}
+
+  .button:hover{
+	background-color: var(--celadon);
+	color: var(--tyrian-purple);
+
+  }
 /*SEPARADOR*/
 
 .separador {

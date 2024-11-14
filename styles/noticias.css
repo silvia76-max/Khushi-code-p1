@@ -1,38 +1,42 @@
-
-
-/* ------ESTILO ESPECÍFICO -----------------*/
-
-
-
-/*.contenedor{ 
-	 display: flex;
-	 gap: 20px;
-	 padding: 20px;
-
-}*/
-
-
-
-.cont-noticias{
-	margin: 0 auto;
-	display: flex;
+* {
+	box-sizing: border-box;
+  }
+  
+  body {
+	background: #f1f1f1;
+  }
+  
+  
+  .header-blog {
+	padding: 20px;
+	font-size: 40px;
+	text-align: center;
+	background: white;
+  }
+  
+  
+  .column {
 	align-items: center;
-	padding-top: 10rem;
-	padding-left: 4rem;
-	padding-right: 4rem;
-	flex-direction: column-reverse;
-}
-.contenido-2 {
-	width: 40%;
-    margin: 0;
-    margin-right: 20px;
-   justify-content: right;
-}
+	width: 60%;
+  }
+  
+  .cont-img {
+	background-color: #ffffff;
+	width: 10%;
+	padding: 10px;
+  }
+  
+  .cont-img {
+	background-color: #ffffff;
+	width: 10%;
+	padding: 10px;
+  }
 
-.contenido-2{
-	width: 40%;
-}
-
-.contenido-3{
-	width: 40%;
-}
+  
+  /* Add a card effect for articles */
+  .card {
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+  }
+  
