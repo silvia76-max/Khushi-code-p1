@@ -43,14 +43,9 @@
 strong{
   color: var(--tyrian-purple);
 }
-main{
-  background-image: url('../img/ilustraciones/ilustracion-esgrima-julian-y-miguel-.png');
-  opacity: 60%;
-  background-position: bottom;
 
-
-}
 /*bienvenidos*/
+
 .contenedor-p-img {
   width: 100%;
   display: flex;
@@ -277,9 +272,26 @@ color: var(--celadon);
   }
   
 
-/*Separador*/
+/*fondos*/
+.ilustracion-paca {
+  position: relative;
+}
 
+.ilustracion-paca::before{
+  content: "";
+  display: block;
+  position: absolute;
+bottom: -8rem;
+  right: 2rem;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/ilustraciones/ilustracion-esgrima-paca..png");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  filter: opacity(30%);
 
+}
 @keyframes slide {
     from {
      filter: opacity(0%);
