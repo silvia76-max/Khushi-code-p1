@@ -310,7 +310,32 @@ section{
   padding-bottom: 1rem;
  
 }
+/* Separador */
 
+.separador{
+    margin-top: 10rem;
+    position: relative;
+}
+
+.separador::before{
+    content: "";
+    display: block;
+    position: absolute;
+
+    top: -12rem;
+    left: 50%;
+    transform: translateX(-50%); 
+
+
+    width: 250px; 
+    height: 200px; 
+
+    background-image: url("../img/espadas-separador.svg");
+    background-size: 250px 250px; 
+    background-repeat: no-repeat;
+
+    filter: invert(1) sepia(1) saturate(0) hue-rotate(0deg); 
+  }
 
 /*FOOTER*/
 
