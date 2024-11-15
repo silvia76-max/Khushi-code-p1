@@ -65,6 +65,8 @@
         width: 30%; 
         border-radius: 15px;
         margin-right: 10px; 
+      border: 1px solid black;
+        
          }
     .container1 h2{
        justify-content: center;
@@ -95,6 +97,7 @@
         width: 30%; 
         border-radius: 15px;
         margin-right: 20px; 
+        border: 1px solid black;
               
            } 
    .container2 h2{
@@ -125,7 +128,8 @@
         width: 30%; 
         margin: 0;
         border-radius: 15px;
-        margin-right: 20px; ;
+        margin-right: 20px; 
+        border: 1px solid black;
           
          } 
     .container3 h2{
@@ -156,6 +160,7 @@
         margin: 0;
         border-radius: 15px;
         margin-right: 20px; 
+        border: 1px solid black;
             
          }
     .container4 h2{
@@ -186,7 +191,8 @@
         width: 30%; 
         margin: 0;
         border-radius: 15px;
-        margin-right: 20px; ;
+        margin-right: 20px;
+        border: 1px solid black; 
                         }     
    .container5 h2 {
        justify-content: center;
@@ -196,6 +202,4 @@
         width: 50%; 
         height: auto;
         border-radius: 2rem;
-       
-          
-                }
+        }

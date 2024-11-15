@@ -40,7 +40,7 @@
    .cover__card img{
       width: 110%;
       height: 300px;
-      box-sizing: border-box;
+      border: 1px solid black;
       box-shadow:var(--tyrian-purple);
       }
    .description__card h2{
