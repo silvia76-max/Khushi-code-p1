@@ -11,7 +11,7 @@
   body {
         margin: 0;
         padding: 0;
-        background-color: rgb(137, 164, 147);
+        background-color:white;
         } 
    
   h2 {
@@ -48,62 +48,77 @@
       font-weight: bold;
     }
 
-   .container1 {
+    .container1 {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
-        align-items: center; 
+        position: relative;
+        justify-content:space-evenly;
+        align-items: center;
         margin-bottom: 3rem;
+        border-radius: 20px;
         box-sizing: content-box;
+        background-color: white;
          }
-   .container1 img{
+         
+    .container1 img{
         width: 30%; 
-        margin: 0;
         border-radius: 15px;
-        margin-right: 20px; 
-       
+        margin-right: 10px; 
          }
-  .contenido1  {
-        width: 70%; 
+    .container1 h2{
+       justify-content: center;
+       align-items: center;
+             }
+
+    .contenido1 {
+        width: 50%; 
         height: auto;
         border-radius: 2rem;
-        object-fit: cover; 
+      
           }
 
    .container2 {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
+        position: relative;
         justify-content: space-evenly;
         align-items: center; 
         margin-bottom: 3rem;
+        border-radius: 20px;
         box-sizing: content-box;
+        background-color: var(--celadon);
         }
    
    .container2 img {
         width: 30%; 
-        margin: 0;
         border-radius: 15px;
-        margin-right: 20px; ;
+        margin-right: 20px; 
               
            } 
+   .container2 h2{
+       justify-content: center;
+        align-items: center;
+          }
    .contenido2 {
-        width: 70%; 
+        width: 50%; 
         height: auto;
         border-radius: 2rem;
-        object-fit: cover;
-            
-          }  
+       
+              }  
    
    .container3 {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
+        position: relative;
         justify-content: space-evenly;
         align-items: center; 
         margin-bottom: 3rem;
+        border-radius: 20px;
         box-sizing: content-box;
+        background-color: white;
         }
  
    .container3 img {
@@ -113,60 +128,74 @@
         margin-right: 20px; ;
           
          } 
+    .container3 h2{
+       justify-content: center;
+       align-items: center;
+        }
       
    .contenido3 {
-        width: 70%; 
+        width: 50%; 
         height: auto;
         border-radius: 2rem;
-        object-fit: cover;
+     
           } 
    .container4 {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
+        position: relative;
         justify-content: space-evenly;
         align-items: center; 
         margin-bottom: 3rem;
+        border-radius: 20px;
         box-sizing: content-box;
+        background-color: var(--celadon);
         }
-           
- 
    .container4 img {
         width: 30%; 
         margin: 0;
         border-radius: 15px;
-        margin-right: 20px; ;
+        margin-right: 20px; 
             
          }
-   .contenido4 {
-        width: 70%; 
+    .container4 h2{
+         justify-content: center;
+          align-items: center;
+        }
+    .contenido4 {
+        width: 50%; 
         height: auto;
         border-radius: 2rem;
-        object-fit: cover;
+       
          }  
      
-  .container5 {
+   .container5 {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
+        position: relative;
         justify-content: space-evenly;
         align-items: center; 
         margin-bottom: 3rem;
+        border-radius: 20px;
         box-sizing: content-box;
+        background-color: white;
         }
            
-  .container5 img{
+   .container5 img{
         width: 30%; 
         margin: 0;
         border-radius: 15px;
         margin-right: 20px; ;
-              
-           }
-      
-  .contenido5 {
-        width: 70%; 
+                        }     
+   .container5 h2 {
+       justify-content: center;
+       align-items: center;
+          }
+   .contenido5 {
+        width: 50%; 
         height: auto;
         border-radius: 2rem;
-        object-fit: cover;
+       
           
                 }
