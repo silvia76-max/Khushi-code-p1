@@ -44,17 +44,13 @@
       font-family: "Philosopher", "Gill Sans MT", Calibri, "Trebuchet MS",
         sans-serif;
       padding-top: 1rem;
-      font-size: 1.4rem;
+      font-size: 1rem;
       font-weight: bold;
     }
-
+  
     .container1 {
         width: 100%;
         display: flex;
-        flex-wrap: wrap;
-        position: relative;
-        justify-content:space-evenly;
-        align-items: center;
         margin-bottom: 3rem;
         border-radius: 20px;
         box-sizing: content-box;
@@ -64,29 +60,24 @@
     .container1 img{
         width: 30%; 
         border-radius: 15px;
-        margin-right: 10px; 
-      border: 1px solid black;
-        
-         }
+        margin: 20px; 
+        border: 1px solid black;
+        float: left;
+          }
     .container1 h2{
-       justify-content: center;
-       align-items: center;
+        justify-content: center;
+        align-items: center;
              }
 
     .contenido1 {
-        width: 50%; 
-        height: auto;
+        width: 70%; 
+        float: left;
         border-radius: 2rem;
-      
-          }
-
+         }
+    
    .container2 {
         width: 100%;
         display: flex;
-        flex-wrap: wrap;
-        position: relative;
-        justify-content: space-evenly;
-        align-items: center; 
         margin-bottom: 3rem;
         border-radius: 20px;
         box-sizing: content-box;
@@ -96,17 +87,18 @@
    .container2 img {
         width: 30%; 
         border-radius: 15px;
-        margin-right: 20px; 
+        margin: 20px; 
         border: 1px solid black;
+        float:right;
               
            } 
    .container2 h2{
-       justify-content: center;
+        justify-content: center;
         align-items: center;
           }
    .contenido2 {
-        width: 50%; 
-        height: auto;
+        width: 70%; 
+        float: right;
         border-radius: 2rem;
        
               }  
@@ -114,10 +106,6 @@
    .container3 {
         width: 100%;
         display: flex;
-        flex-wrap: wrap;
-        position: relative;
-        justify-content: space-evenly;
-        align-items: center; 
         margin-bottom: 3rem;
         border-radius: 20px;
         box-sizing: content-box;
@@ -126,10 +114,10 @@
  
    .container3 img {
         width: 30%; 
-        margin: 0;
         border-radius: 15px;
-        margin-right: 20px; 
+        margin: 20px; 
         border: 1px solid black;
+        float: left;
           
          } 
     .container3 h2{
@@ -138,18 +126,14 @@
         }
       
    .contenido3 {
-        width: 50%; 
-        height: auto;
+        width: 70%; 
+        float: left;
         border-radius: 2rem;
      
           } 
    .container4 {
         width: 100%;
         display: flex;
-        flex-wrap: wrap;
-        position: relative;
-        justify-content: space-evenly;
-        align-items: center; 
         margin-bottom: 3rem;
         border-radius: 20px;
         box-sizing: content-box;
@@ -157,10 +141,10 @@
         }
    .container4 img {
         width: 30%; 
-        margin: 0;
         border-radius: 15px;
-        margin-right: 20px; 
+        margin: 20px; 
         border: 1px solid black;
+        float: right;
             
          }
     .container4 h2{
@@ -168,19 +152,16 @@
           align-items: center;
         }
     .contenido4 {
-        width: 50%; 
+        width: 70%; 
         height: auto;
         border-radius: 2rem;
+        float: right;
        
          }  
      
    .container5 {
         width: 100%;
         display: flex;
-        flex-wrap: wrap;
-        position: relative;
-        justify-content: space-evenly;
-        align-items: center; 
         margin-bottom: 3rem;
         border-radius: 20px;
         box-sizing: content-box;
@@ -189,17 +170,17 @@
            
    .container5 img{
         width: 30%; 
-        margin: 0;
         border-radius: 15px;
-        margin-right: 20px;
+        margin: 20px;
         border: 1px solid black; 
+        float:left;
                         }     
    .container5 h2 {
        justify-content: center;
        align-items: center;
           }
    .contenido5 {
-        width: 50%; 
-        height: auto;
+        width: 70%; 
+        float: left;
         border-radius: 2rem;
         }
