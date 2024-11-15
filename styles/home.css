@@ -1,4 +1,32 @@
+.hero {
+  background: url("../img/home/background.jpg") 0px -221px / cover;
+  margin: 0 -6rem;
+  padding: 15rem 0;
+  height: 250px;
+}
 
+.hero-contenido{
+  display: flex;
+  justify-content: center;
+  animation-name: slide;
+  animation-duration: 5s;
+}
+
+.hero-logo {
+  padding: 9rem;
+  position: relative;
+}
+
+.hero-logo img{
+  width: 100%;
+  position: absolute;
+  top: -83px;
+  left: 68px;
+}
+
+.hero-info h2 {
+  font-size: 3rem;
+}
 .subtitleContent {
   color: var(--celadon);
   font-family: "Quicksand", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -15,7 +43,13 @@
 strong{
   color: var(--tyrian-purple);
 }
+main{
+  background-image: url('../img/ilustraciones/ilustracion-esgrima-julian-y-miguel-.png');
+  opacity: 60%;
+  background-position: bottom;
 
+
+}
 /*bienvenidos*/
 .contenedor-p-img {
   width: 100%;
@@ -222,6 +256,27 @@ color: var(--celadon);
 .h4-noticias{
   color: var(--tyrian-purple)
 }
+
+.button-noticias{
+  background-color: var(--celadon); 
+	color: var(--tyrian-purple);
+	border-radius: 0.5rem;
+	padding: 1rem 2rem;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1rem;
+	font-weight:500;
+	cursor: pointer;
+	transition-duration: 0.1s;
+  border: 0.15rem solid var(--tyrian-purple);
+}
+.button-noticias:hover {
+  background-color: var(--tyrian-purple);
+  color: var(--celadon); 
+  }
+  
+
 /*Separador*/
 
 
