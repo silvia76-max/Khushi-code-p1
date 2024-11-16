@@ -44,25 +44,29 @@
       font-family: "Philosopher", "Gill Sans MT", Calibri, "Trebuchet MS",
         sans-serif;
       padding-top: 1rem;
-      font-size: 1rem;
+      font-size: 1.3rem;
       font-weight: bold;
+      line-height: 1.5em;
+    
     }
   
     .container1 {
         width: 100%;
-        display: flex;
+        display:flexbox;
+        flex-direction:column;
         margin-bottom: 3rem;
         border-radius: 20px;
         box-sizing: content-box;
-        background-color: white;
+        background-color:whitesmoke;
          }
          
     .container1 img{
         width: 30%; 
         border-radius: 15px;
-        margin: 20px; 
+        margin: 40px; 
+        float: inline-end;
         border: 1px solid black;
-        float: left;
+       
           }
     .container1 h2{
         justify-content: center;
@@ -70,26 +74,30 @@
              }
 
     .contenido1 {
-        width: 70%; 
-        float: left;
+        width: 80%; 
+        height: auto;
+        margin: 50px;
+        padding: 30px;
         border-radius: 2rem;
          }
     
    .container2 {
         width: 100%;
-        display: flex;
+        display:flexbox;
+        flex-direction: column;
         margin-bottom: 3rem;
         border-radius: 20px;
         box-sizing: content-box;
-        background-color: var(--celadon);
+        background-color:var(--celadon);
         }
    
    .container2 img {
         width: 30%; 
         border-radius: 15px;
-        margin: 20px; 
+        margin: 40px; 
+        float: inline-start;
         border: 1px solid black;
-        float:right;
+       
               
            } 
    .container2 h2{
@@ -97,27 +105,32 @@
         align-items: center;
           }
    .contenido2 {
-        width: 70%; 
-        float: right;
+        width: 90%; 
+        height: auto;
+        margin: 50px;
+        padding: 30px;
         border-radius: 2rem;
+        align-self:self-end;
        
               }  
    
    .container3 {
         width: 100%;
-        display: flex;
+        display:flexbox;
+        flex-direction: column;
         margin-bottom: 3rem;
         border-radius: 20px;
         box-sizing: content-box;
-        background-color: white;
+        background-color:whitesmoke;
         }
  
    .container3 img {
         width: 30%; 
         border-radius: 15px;
-        margin: 20px; 
+        margin: 40px;
+        float: inline-end; 
         border: 1px solid black;
-        float: left;
+       
           
          } 
     .container3 h2{
@@ -126,61 +139,95 @@
         }
       
    .contenido3 {
-        width: 70%; 
-        float: left;
-        border-radius: 2rem;
+        width: 80%; 
+        height: auto;
+        margin: 50px;
+        padding: 30px;
+       border-radius: 2rem;
      
           } 
    .container4 {
         width: 100%;
-        display: flex;
+        height: auto;
+        display: flexbox;
+        flex-direction: column;
         margin-bottom: 3rem;
         border-radius: 20px;
         box-sizing: content-box;
         background-color: var(--celadon);
         }
    .container4 img {
-        width: 30%; 
+        width: 28%; 
+        height: auto;
         border-radius: 15px;
-        margin: 20px; 
+        margin: 40px; 
+        float:left;
         border: 1px solid black;
-        float: right;
-            
-         }
+        }
     .container4 h2{
          justify-content: center;
-          align-items: center;
+         align-items: center;
         }
     .contenido4 {
-        width: 70%; 
+        width: 85%; 
         height: auto;
+        margin: 50px;
+        padding: 30px;
         border-radius: 2rem;
-        float: right;
+
        
-         }  
+        }  
      
    .container5 {
         width: 100%;
-        display: flex;
+        display: flexbox;
+        flex-direction: column;
         margin-bottom: 3rem;
         border-radius: 20px;
         box-sizing: content-box;
-        background-color: white;
+        background-color:whitesmoke;
         }
            
    .container5 img{
         width: 30%; 
         border-radius: 15px;
-        margin: 20px;
+        margin: 40px;
+        float: inline-end;
         border: 1px solid black; 
-        float:left;
-                        }     
+       
+                        } 
+
    .container5 h2 {
        justify-content: center;
        align-items: center;
           }
    .contenido5 {
-        width: 70%; 
-        float: left;
+        width: 80%; 
+        height: auto;
+        margin: 50px;
+        padding: 30px;
         border-radius: 2rem;
         }
+   .separador{
+          margin-top: 10rem;
+          position: relative;
+      }
+      
+   .separador::before{
+          content: "";
+          display: block;
+          position: absolute;
+      
+          top: -12rem;
+          left: 50%;
+          transform: translateX(-50%); /* Centrar horizontalmente */
+        
+      
+          width: 250px; /* Ajusta el ancho */
+          height: 200px; /* Ajusta el alto */
+      
+          background-image: url("../img/espadas-separador.svg");
+          background-size: 250px 250px; /* Ajusta el tamaño deseado */
+          background-repeat: no-repeat;
+      
+          filter: invert(1) sepia(1) saturate(0) hue-rotate(0deg);
