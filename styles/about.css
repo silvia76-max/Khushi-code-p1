@@ -108,7 +108,7 @@ h2, h3 {
 }
 
 .contenido img {
-  width: 15%; 
+  width: 22%; 
   height: auto;
   border-radius: 2rem;
   object-fit: cover; 
@@ -150,6 +150,7 @@ h2, h3 {
 }
 .h3-about{
   text-justify: center;
+  margin-bottom: 2rem;
 }
 
 /*boton*/
