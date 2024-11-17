@@ -55,17 +55,17 @@
           display:flexbox;
           flex-direction:column;
           margin-bottom: 3rem;
-          border-radius: 20px;
+          border-radius: 10px;
           box-sizing: content-box;
-          background-color:whitesmoke;
-          border: 5px solid var(--celadon);
+          background-color:white;
+          
           }
          
     .container1 img{
           width: 30%; 
           border-radius: 15px;
-          margin: 40px; 
           float: inline-end;
+          margin: 20px;
           border: 3px solid var(--violet-jtc);
            }
     .container1 h2{
@@ -76,8 +76,6 @@
     .contenido1 {
           width: 80%; 
           height: auto;
-          margin: 50px;
-          padding: 30px;
           border-radius: 2rem;
           }
      
@@ -86,17 +84,17 @@
           display:flexbox;
           flex-direction: column;
           margin-bottom: 3rem;
-          border-radius: 20px;
+          border-radius: 5px;
           box-sizing: content-box;
           background-color:var(--celadon);
-          border: 5px solid var(--tyrian-purple);
+         
            }
    .container2 img {
           width: 30%; 
           border-radius: 15px;
           margin: 40px; 
           float: inline-start;
-          border: 5px solid white;
+          border: 3px solid white;
           } 
    .container2 h2{
           justify-content: center;
@@ -105,10 +103,8 @@
    .contenido2 {
           width: 90%; 
           height: auto;
-          margin: 50px;
-          padding: 30px;
           border-radius: 2rem;
-          align-self:self-end;
+         
            }  
    
    .container3 {
@@ -116,10 +112,10 @@
           display:flexbox;
           flex-direction: column;
           margin-bottom: 3rem;
-          border-radius: 20px;
+          border-radius: 10px;
           box-sizing: content-box;
-          background-color:whitesmoke;
-          border: 5px solid var(--celadon);
+          background-color:white;
+         
           }
  
    .container3 img {
@@ -127,7 +123,7 @@
           border-radius: 15px;
           margin: 40px;
           float: inline-end; 
-          border: 5px solid var(--celadon);
+          border: 3px solid var(--celadon);
            } 
     .container3 h2{
           justify-content: center;
@@ -137,8 +133,6 @@
    .contenido3 {
           width: 80%; 
           height: auto;
-          margin: 50px;
-          padding: 30px;
           border-radius: 2rem;
            } 
    .container4 {
@@ -147,10 +141,10 @@
           display: flexbox;
           flex-direction: column;
           margin-bottom: 3rem;
-          border-radius: 20px;
+          border-radius: 10px;
           box-sizing: content-box;
           background-color: var(--celadon);
-          border: 5px solid var(--tyrian-purple);
+       
            }
    .container4 img {
           width: 28%; 
@@ -158,7 +152,7 @@
           border-radius: 15px;
           margin: 40px; 
           float:left;
-          border: 4px solid var(--tyrian-purple);
+          border: 3px solid var(--tyrian-purple);
           }
     .container4 h2{
           justify-content: center;
@@ -167,8 +161,6 @@
     .contenido4 {
           width: 85%; 
           height: auto;
-          margin: 50px;
-          padding: 30px;
           border-radius: 2rem;
           }  
      
@@ -177,10 +169,10 @@
           display: flexbox;
           flex-direction: column;
           margin-bottom: 3rem;
-          border-radius: 20px;
+          border-radius: 10px;
           box-sizing: content-box;
-          background-color:whitesmoke;
-          border: 5px solid var(--celadon);
+          background-color:white;
+         
           }
            
    .container5 img{
@@ -188,7 +180,7 @@
           border-radius: 15px;
           margin: 40px;
           float: inline-end;
-          border: 5px solid var(--celadon); 
+          border: 3px solid var(--celadon); 
            } 
 
    .container5 h2 {
@@ -198,8 +190,6 @@
    .contenido5 {
           width: 80%; 
           height: auto;
-          margin: 50px;
-          padding: 30px;
           border-radius: 2rem;
           }
    .separador{
