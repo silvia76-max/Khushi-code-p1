@@ -418,3 +418,10 @@ margin-top: 6rem;
   .cont-boton, .cont-boton-ult {
     margin-bottom: 2rem; 
   }
+
+  /*--cambio específico porque no se aplicaba el color al footer-bottom*/
+
+  .footer-bottom p {
+  color: white;
+}
+
