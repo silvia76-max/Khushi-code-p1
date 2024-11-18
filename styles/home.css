@@ -72,7 +72,6 @@ strong {
   font-size: 2.5rem;
   text-align: center;
   margin-bottom: 2rem;
-
 }
 
 .cards-container {
@@ -82,22 +81,21 @@ strong {
   flex-wrap: wrap;
   background-color: white;
   margin-bottom: 3rem;
-
+  gap: 1rem;
 }
 .card {
   border: 1px solid #cccccc;
   border-radius: 2rem;
-  width: 18.75rem;
+  width: 30%;
   padding: 1rem;
   text-align: center;
   background-color: #acf7c13f;
-
 }
 
 .card-2 {
   border: 1px solid #ddd;
   border-radius: 2rem;
-  width: 18.75rem;
+  width: 30%;
   padding: 1rem;
   text-align: center;
   background-color: var(--tyrian-purple);
@@ -290,7 +288,7 @@ strong {
   width: 100%;
   height: 100%;
   background-image: url("../img/ilustraciones/ilustracion-esgrima-soledad.png");
-  background-size: 24%; 
+  background-size: 24%;
   background-repeat: no-repeat;
   filter: opacity(25%);
 }
@@ -354,7 +352,7 @@ strong {
   animation-duration: 5s;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 840px) {
   .nav1 {
     display: flex;
     flex-direction: column;
@@ -375,7 +373,11 @@ strong {
     padding-bottom: 2rem;
   }
 
-  .contenedor {
+  body {
+    background-image: none;
+  }
+
+  .contenedor-p-img {
     display: flex;
     flex-direction: column;
     gap: 0rem;
@@ -387,11 +389,79 @@ strong {
     gap: 0rem;
   }
 
-  body {
-    background-image: none;
+  .cont-inicio-1 {
+    flex-direction: column;
+    align-items: center;
   }
-}
 
-footer {
-  background-color: black;
+  .cont-img-bienvenida {
+    width: 80%;
+    padding-bottom: 1rem;
+  }
+
+  .cont-p-inicio {
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+  .cards-container {
+    width: 100%;
+  }
+  .card {
+    width: 45%;
+  }
+
+  .card-2 {
+    width: 45%;
+  }
+
+  .texto-opiniones {
+    width: 90%;
+  }
+
+  .cont-img-inicio {
+    width: 80%;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+
+  }
+
+
+  .contenedor-p-img-3 {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .h3-inicio-noticias {
+    font-size: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+
+  }
+
+  .noticias {
+    flex-direction: column;
+  }
+
+  .noticias-texto {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .noticias-p-img {
+    width: 100%;
+    flex-direction: column;
+    padding: 3rem;
+  }
+
+  .noticias-img-inicio {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+
+  footer {
+    background-color: black;
+  }
 }
