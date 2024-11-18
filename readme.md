@@ -6,24 +6,25 @@
 
 ## 📋 Descripción
 
-[Explica brevemente de qué se trata el proyecto. Por ejemplo: "Este proyecto es una aplicación web desarrollada para gestionar tareas y colaboraciones en equipo."]
+"Este proyecto es una pagina web desarrollada para gestionar tanto a los socios del club, como para captacion de nuevos socios. ofrecer informacion y recibir feedback"
 
 ### Características:
-- [Lista las características principales del proyecto, por ejemplo:]
+
   - Gestión de usuarios
   - Interfaces amigables
-  - Funcionalidades clave específicas del proyecto
-
+  - Nuevas inscripciones
+  - Reserva de masterclass
+  - Informacion y noticias realccionadas
+  - Oferta de promociones
 ---
 
 ## 🚀 Tecnologías utilizadas
 
 Este proyecto utiliza las siguientes tecnologías y herramientas:
 
-- Lenguaje de programación: [Indica el lenguaje principal, ej. Python, JavaScript, etc.]
-- Framework: [Nombre del framework, ej. React, Flask, etc.]
-- Base de datos: [Indica el tipo de base de datos utilizada]
-- Otras herramientas: [Lista otras tecnologías relevantes, ej. Bootstrap, Docker, etc.]
+- Lenguaje de programación: HTML y CSS 
+- Git/Github : para el control de versiones
+- Otras herramientas: Figma, trello
 
 ---
 
@@ -31,6 +32,11 @@ Este proyecto utiliza las siguientes tecnologías y herramientas:
 
 La estructura básica del proyecto es la siguiente:
 
+-Home
+-El Club
+-Clases
+-Noticias
+-Contacto
 
 ---
 
