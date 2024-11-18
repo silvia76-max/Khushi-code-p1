@@ -137,6 +137,7 @@ table {
   --violet-jtc: #61304bff;
   --azul-claro: #94bfbeff;
   --celadon: #acf7c1ff;
+  --backtrans: #acf7c13f;
 }
 
 /* --cambiar fuente:*/
@@ -340,9 +341,8 @@ section{
 /*FOOTER*/
 
 footer {
-  background-color: #333;
-  color:  #fff;
-  
+  background-color: #dedee4;
+  color: rgb(56, 56, 56);
   font-size: 16px;
 }
 
@@ -350,51 +350,84 @@ footer {
    display: flex;
    justify-content: space-around;
    padding: 2rem;
-   border-top: 1px solid#444;
+   background-color: #dedee4;
+   align-items: center;
+
+   /*border-top: 1px solid#444;*/
 }
 
 .footer-section{
      text-align: center;
+     
 }
+
+.footer-section a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: var(--tyrian-purple);
+}
+
+
 
 .footer-section h3{
     margin-bottom: 10px;
     font-size: 16px;
-    color: #f0f0f0;
+    
+}
+
+.footer-section h5{
+  color: rgb(0, 0, 0);
+  
 }
 
 .footer-section ul{
    list-style: none;
    padding: 0;
+   color: rgb(56, 56, 56)
+   
 }
 
 .footer-section ul li{
      margin: 6px;
-}
+     color: rgb(56, 56, 56)
+    
+    }
 
 .footer { 
   position: absolute; 
   bottom: 0; 
   left: 0; 
+  
 }
 
 .footer-bottom{
    text-align: center;
    padding: 0.5rem;
-    background-color: #252222;
+    background-color: var(--tyrian-purple);
    color: white;
    font-size: 15px;
   
 }
 
+
+
 .redessociales{
   font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.textoRedes{
+  font-size:0.8rem;
 }
 
 
-
-@media screen and (max-width: 800px) {
-  .nav1 {
+ @media screen and (max-width: 840px) {
+  /*.nav1 {
     display: flex;
     flex-direction: column;
     padding-right: 2rem;
@@ -402,9 +435,8 @@ footer {
     padding-left: 3rem;
     line-height: 0.5;
     padding-top: 0rem;
-	text-align: center;
-	font-size: larger;
-	
+	  text-align: center;
+	  font-size: larger;
   }
 
   header {
@@ -419,22 +451,38 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 0rem;
-  
-  
   }
 
   .identidad {
     display: flex;
     gap: 0rem;
+  }*/
+
+.footer-content{
+display: grid;
+grid-template-columns: 1fr 1fr; /*fr= fracción*/
+}
+
+.redessociales{
+  text-align: center;
+  
+  
   }
+}
+
+
+@media screen and (max-width: 490px) {
 
   .footer-content{
     display: flex;
-    justify-content: space-between;
-    font-size: 0.8rem;
-    border-top: 1px solid#444;
- }
- footer{
-  padding: 0;
- }
-}
+    flex-direction:column-reverse;
+    gap: 1.5rem;
+    }
+    
+    .redessociales{
+      text-align: center;
+      
+      }
+
+
+} 
