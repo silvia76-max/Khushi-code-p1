@@ -23,7 +23,8 @@
 Este proyecto utiliza las siguientes tecnologías y herramientas:
 
 - Lenguaje de programación: HTML y CSS 
-- Git/Github : para el control de versiones
+- Git/Github : git push
+para el control de versiones
 - Otras herramientas: Figma, trello
 
 ---
