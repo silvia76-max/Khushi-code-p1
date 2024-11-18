@@ -16,14 +16,6 @@
 	 font-size: larger;
   }
 
-  .header-blog{
-	 height: 4rem;
-	 display: flex;
-	 flex-direction: column;
-	 justify-content: space-around;
-	 padding-bottom: 2rem;
-  }
-
   .contenedor{
 	 display: flex;
 	 flex-direction: column;
@@ -37,13 +29,11 @@
 	text-align: justify;
 	font-size: 18px;
 	line-height: 1.5;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
+}
 
-   p2  { 
+     p2  { 
 	 font-size: 20px;
 	 padding: 10px;
-	 font-family: 'Times New Roman', Times, serif;
 	 color: rgb(167, 3, 93);
 
    }
@@ -51,7 +41,6 @@
   /* styling for list items*/
 
   li  {
-	font-family: initial;
 	  color: rgb(196, 103, 146);
   }
 
@@ -62,6 +51,7 @@
 	text-align: center;
 	background: rgb(175, 1, 88);
   }
+
   
   .column {
 	display: flex;
@@ -76,13 +66,15 @@
 	margin: 0;
 	padding: 20px;
   }
-  
+  @media screen and (min-width: 280px) and (max-width: 840px){
+
   .cont-img {
 	background-color: #ffffff;
 	width: 100%;
 	padding: 30px;
 	display: flex;
 	justify-content: center;
+    
   }
    .card h2{
 	 color: rgb(153, 3, 73);
@@ -104,6 +96,4 @@
 	padding: 20px;
 	margin-top: 20px;
   }
-
-  
-  
+}
