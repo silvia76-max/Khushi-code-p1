@@ -137,6 +137,7 @@ table {
   --violet-jtc: #61304bff;
   --azul-claro: #94bfbeff;
   --celadon: #acf7c1ff;
+  --backtrans: #acf7c13f;
 }
 
 /* --cambiar fuente:*/
@@ -393,7 +394,7 @@ footer {
 
 
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
   .nav1 {
     display: flex;
     flex-direction: column;
@@ -437,4 +438,4 @@ footer {
  footer{
   padding: 0;
  }
-}
+} */
