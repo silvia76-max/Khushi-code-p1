@@ -7,83 +7,78 @@
         flex-wrap: wrap;
         background-color:white;
           }
-    
-      .container__cards {
+
+   .container__cards {
           width: 300px;
           margin: 2rem;
           display: flex;
-          flex-wrap: wrap;
+         flex-wrap: wrap;
           align-items: center;
           background-color: white;
-        }       
-    .cards { 
-        width: 130%;
+           }  
+      
+   .cards { 
+          width: 130%;
           height: 650px;
           box-sizing: border-box;
           flex-direction: column;
           justify-content: space-between;
           text-align: center;
           padding: 15px;
-          border-radius: 15px;
+          border-radius: 10px;
+          margin: auto;
           box-shadow: 0.25rem 0.25rem 0.25rem var(--tyrian-purple);
           background-color: var(--celadon);
-          }
-  .card:hover{
-       box-shadow: 10px 10px 10px var(--violet-jtc);
-              }
+           }
+
+              
    .cover__card{
         width: 300px;
         height: 180px;
         border-radius: 10px;
         box-sizing: border-box;
         overflow: hidden;
-            }
-    .cover__card img{
+           }
+  .cover__card img{
         width: 110%;
         height: 300px;
         border: 3px solid var(--tyrian-purple);
           }
-    .description__card h2{
+  .description__card h2{
         width: 100%;
-        font-size: 40px;
-        font-weight: 400;
+        font-size: 30px;
+        font-weight: 300;
         text-align: center;
         margin-top:20px;
-        margin-bottom: 20px;
+        margin-bottom:30px;
         color: var(--tyrian-purple);
         }
 
    .description__card p {
-        font-size: 25px;
-        font-weight: 100px;
+        width: 100%;
+        font-size: 20px;
+        font-weight: 200px;
         text-align: center;
         color: #1d0a0a;
-        margin-top: 20px;
-        margin-bottom: 40px;
-        flex-grow: 1;
-              }
+        margin-bottom: 100px;
+            }
 
     .description__card input,button {
         background-color: var(--tyrian-purple); 
         border: none;
         border-radius: 0.5rem;
         color: var(--celadon);
-        padding:10px 20px;
+        padding:10px 10px;
         text-align: center;
         text-decoration: none;
         font-size: 15px;
         cursor: pointer;
         transition-duration: 0.3s;
-        margin: 1px;
-        align-self:end;
-            }
-   
-   .input.button:hover{
-        background-color: var(--celadon);
-        color: var(--tyrian-purple);
-        }
-   
-
+        margin: 0.75px;
+        margin-bottom: o, auto;
+           }
+          
+ 
      /*FOOTER*/
 
   footer {
