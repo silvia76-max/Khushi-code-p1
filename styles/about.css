@@ -208,7 +208,7 @@ h2, h3 {
 /*SEPARADOR*/
 
 .separador {
-  margin-top: ;
+  margin-top: 0rem;
   position: relative;
 }
 
@@ -252,7 +252,7 @@ h2, h3 {
 
 
 /* Media Queries */
-@media only screen and (min-width: 0px) and (max-width: 530px) {
+@media only screen and (min-width: 0px) and (max-width: 529px) {
 
   .titulo-about {
     max-width: 100%;

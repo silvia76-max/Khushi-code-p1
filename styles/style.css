@@ -137,6 +137,7 @@ table {
   --violet-jtc: #61304bff;
   --azul-claro: #94bfbeff;
   --celadon: #acf7c1ff;
+  --backtrans: #acf7c13f;
 }
 
 /* --cambiar fuente:*/
@@ -425,7 +426,7 @@ footer {
 }
 
 
-@media screen and (max-width: 840px) {
+/* @media screen and (max-width: 840px) {
   .nav1 {
     display: flex;
     flex-direction: column;
@@ -484,4 +485,4 @@ grid-template-columns: 1fr 1fr; /*fr= fracción*/
       }
 
 
-}
+} */
