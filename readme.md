@@ -69,17 +69,16 @@ Sigue los pasos a continuación para configurar y ejecutar el proyecto localment
  bash
   cd khushi-code-p1
 
-3. instala las dependencias necesarias
-como "npm insatll" o "pip install"
+3. instala las dependencias necesarias:
+    "npm insatll"
 
 
 ## 📋 Uso 
 Ejecuta el proyecto:
 
-[comando para iniciar el proyecto, por ejemplo: python app.py]
 Para ejecutar las pruebas unitarias, utiliza el siguiente comando:
 
-[comando para ejecutar las pruebas, por ejemplo: pytest]
+  pytest
 ¡Las contribuciones son bienvenidas! Si deseas colaborar:
 
    1.  Haz un fork del repositorio.
@@ -95,7 +94,7 @@ Para ejecutar las pruebas unitarias, utiliza el siguiente comando:
 
    git push origin feature/nueva-funcionalidad
 
-Abre un Pull Request en este repositorio.
+ Abre un Pull Request en este repositorio.
 
 ## 📄 Licencia
 
