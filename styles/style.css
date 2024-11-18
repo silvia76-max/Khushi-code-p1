@@ -426,8 +426,8 @@ footer {
 }
 
 
-/* @media screen and (max-width: 840px) {
-  .nav1 {
+ @media screen and (max-width: 840px) {
+  /*.nav1 {
     display: flex;
     flex-direction: column;
     padding-right: 2rem;
@@ -456,7 +456,7 @@ footer {
   .identidad {
     display: flex;
     gap: 0rem;
-  }
+  }*/
 
 .footer-content{
 display: grid;
@@ -485,4 +485,4 @@ grid-template-columns: 1fr 1fr; /*fr= fracción*/
       }
 
 
-} */
+} 
