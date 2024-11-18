@@ -2,7 +2,7 @@
 
 .heroimg {
   background: url(../img/about/hero-about.jpeg) bottom/cover;
-  height: 20rem;
+  height: 25rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,6 +37,13 @@ h2, h3 {
   margin-bottom: 0.2rem;
 }
 
+.h3-about-alumnos {
+  padding-top: 2rem;
+  color: var(--tyrian-purple);
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 0.2rem;
+}
 .contenedor-p-img {
   width: 100%;
   display: flex;
@@ -92,7 +99,6 @@ h2, h3 {
 
 /*maestros*/
 
-
 .contenido {
   width: 100%;
   display: flex;
@@ -108,48 +114,76 @@ h2, h3 {
 }
 
 .contenido img {
-  width: 15%; 
+  width: 22%; 
   height: auto;
   border-radius: 2rem;
   object-fit: cover; 
 }
 /*alumnos*/
 
-.cards-container {
+.cards-container-alumnos {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding: 20px;
+  padding: 1.2rem;
   padding-bottom: 5rem;
+  width: 100%;
 }
-.card {
-  border: 1px solid #ddd;
-  border-radius: 0.5rem;
-  width: 18.75rem;
+.card-alumnos {
+  border: 1px solid #cccccc;
+  border-radius: 2rem;
+  width: 20%;
   padding: 1rem;
-  box-shadow: 0.25rem 0.25rem 0.25rem var(--tyrian-purple);
   text-align: center;
-  background-color: rgba(205, 180, 247, 0.438);
+  background-color: #acf7c13f;
+  box-sizing: border-box;
 }
-.card img {
+
+.card-alumnos-invertida{
+  border: 1px solid #cccccc;
+  border-radius: 2rem;
+  width: 20%;
+  padding: 1rem;
+  text-align: center;
+  background-color: var(--tyrian-purple);
+  box-sizing: border-box;
+}
+.card-alumnos img {
   border-radius: 0.5rem;
   width: 100%;
   height: auto;
   box-shadow:var(--tyrian-purple);
 }
-.card h3 {
+.card-alumnos-invertida img {
+  border-radius: 0.5rem;
+  width: 100%;
+  height: auto;
+  box-shadow:var(--tyrian-purple);
+}
+.card-alumnos h3 {
   margin-top: 0.6px;
   font-size: 1.5em;
   color: var(--tyrian-purple);
 }
-.card p {
-  font-size: 1em;
+.card-alumnos-invertida h3 {
+  margin-top: 0.6px;
+  font-size: 1.5em;
+  color: var(--celadon);
+}
+.card-alumnos p {
+  font-size: 1.1rem;
   text-align: center;
   color: rgb(36, 36, 36);
 }
+.card-alumnos-invertida p {
+  font-size: 1.1rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
 .h3-about{
   text-justify: center;
+  margin-bottom: 2rem;
 }
 
 /*boton*/
@@ -215,3 +249,172 @@ h2, h3 {
 .card:hover{
   box-shadow: 10px 10px 10px var(--violet-jtc);
 }
+
+
+/* Media Queries */
+@media (max-width: 840px) {
+p{
+  font-size: 1rem;
+}
+.cards-container{
+  font-size: 1rem;
+}
+
+  .titulo-about {
+    max-width: 100%;
+  }
+
+  .titulo-about > h1 {
+    font-size: 2rem;
+line-height: 1.7rem;
+margin-top: 6rem;
+  }
+  .h3-about {
+    font-size: 2.4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .heroimg {
+    margin-top: -10rem;
+    height: 15rem;
+    background-position: center;
+  }
+  .quote {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .cont-texto {
+    width: 45%;
+    margin: 0;
+  }
+
+  .cont-img {
+    width: 35%;
+  }
+
+  .mision-vision {
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+    margin-bottom: -5rem;
+  }
+
+  .mision,
+  .vision {
+    width: 40%;
+  }
+  .contenido p {
+    width: 50%; 
+    text-align: justify;
+  }
+
+  .contenido img {
+    width: 30%; 
+  }
+
+.h3-about{
+  margin-top: -2rem;
+}
+  .cards-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .card-alumnos {
+    width: 30%;
+    margin: 1rem;
+  }
+  .card-alumnos-invertida {
+    width: 30%;
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 430px) {
+
+  .titulo-about {
+    max-width: 100%;
+  }
+
+  .titulo-about > h1 {
+    font-size: 1.4rem; 
+    margin-top: 8rem;
+  }
+
+  .heroimg {
+    margin-top: -9rem;
+    height: 8rem; 
+    background-position: center;
+  }
+
+  .contenedor-p-img {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .cont-texto {
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+
+  .cont-img {
+    width: 80%; 
+  }
+
+  .mision-vision {
+    flex-direction: column; 
+    align-items: center;
+    padding-bottom: 2rem;
+    text-align: justify;
+  }
+
+  .mision, .vision {
+    width: 90%;
+  }
+  .vision > h3{
+    margin-top: 1rem;
+  }
+
+  .contenido {
+    flex-direction: column;
+    align-items: center; 
+  }
+
+  .contenido p {
+    width: 80%; 
+    margin: 0 0 1rem 0; 
+  }
+
+  .contenido img {
+    width: 70%;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+  }
+}
+.h3-about-alumnos{
+  margin-top: 4rem;
+  margin-bottom: -1.5rem;
+  font-size: 2.4rem;
+}
+
+  .cards-container {
+    flex-direction: column; 
+    align-items: center;
+    margin-bottom: -1.5rem;
+  }
+
+  .card-alumnos {
+    width: 80%;
+    margin-bottom: 1.5rem;
+  }
+
+  .card-alumnos-invertida {
+    width: 80%;
+    margin-bottom: 1.5rem;
+  }
+
+
+  .cont-boton, .cont-boton-ult {
+    margin-bottom: 2rem; 
+  }
