@@ -63,17 +63,15 @@
         height: 300px;
         border: 3px solid var(--tyrian-purple);
           }
-<<<<<<< HEAD
   @media screen and (max-width: 480px), (max-width:780px){
       .description__card h2 {
         font-size: 20px;
         font-weight: 200;
       }
     }
-    .description__card h2 {
-=======
+   
 
-    @media script and (min-width:480px)and(max-width:800px) {
+  @media script and (min-width:480px)and(max-width:800px) {
 
         .description__card h2{ font-size: 15px; 
                                 font-weight: 150;   }
@@ -83,7 +81,6 @@
         }
               }
   .description__card h2{
->>>>>>> 37e85000191babe28d684d31349021154953b241
         width: 100%;
         font-size: 30px;
         font-weight: 300;
@@ -112,34 +109,19 @@
         border: none;
         border-radius: 0.5rem;
         color: var(--celadon);
-<<<<<<< HEAD
         padding:10px;
         display: inline-block;
-=======
         padding:10px 10px;
->>>>>>> 37e85000191babe28d684d31349021154953b241
         text-align: center;
         text-decoration: none;
         font-size: 15px;
         cursor: pointer;
         transition-duration: 0.3s;
-<<<<<<< HEAD
-        margin: 0rem 0rem;
-           }
-   
-    .input:hover{
-        background-color: var(--celadon);
-        color: var(--tyrian-purple);
-        }
-   
-
-=======
         margin: 0.75px;
         margin-bottom: o, auto;
            }
           
  
->>>>>>> 37e85000191babe28d684d31349021154953b241
      /*FOOTER*/
 
   footer {
