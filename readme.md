@@ -42,19 +42,15 @@ La estructura básica del proyecto es la siguiente:
 ---
 ## capturas de pantalla
 ![App Screenshot](https://github.com/silvia76-max/Khushi-code-p1/blob/main/img/contacto/esgrima-01.jpeg)
-
-![App Screenshot](https://github.com/silvia76-max/Khushi-code-p1/blob/main/img/home/esgrima-corto-home.jpeg)
-
-![App Screenshot](https://github.com/silvia76-max/Khushi-code-p1/blob/main/img/home/background3.png)
-
-![App Screenshot]()
-
+![App Screenshot](/home/penascalf5/Documentos/Khushi-code-p1/img/noticiasscreen.png)
+![App Screenshot](/home/penascalf5/Documentos/Khushi-code-p1/img/formularioscreen.png)
+![App Screenshot](/home/penascalf5/Documentos/Khushi-code-p1/img/clasesscreen.png)
+![App Screenshot](/home/penascalf5/Documentos/Khushi-code-p1/img/homescreen.png)
 ![App Screenshot](https://github.com/silvia76-max/Khushi-code-p1/blob/main/img/contacto/Localizaci%C3%B3n-MUXIKA-escuela.png)
-
-
-![App Screenshot](/home/penascalf5/Documentos/Khushi-code-p1/img/grafico de commits.png)
-
 ![App Screenshot](/home/penascalf5/Documentos/Khushi-code-p1/img/grafico git.png)
+
+
+
 
 
 ## Demo
