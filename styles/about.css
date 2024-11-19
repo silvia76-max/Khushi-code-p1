@@ -18,8 +18,14 @@
 }
 p{
   color: rgb(36, 36, 36);
+  text-align: justify;
 }
-
+strong{
+  color: var(--tyrian-purple);
+}
+.invertido strong{
+  color: var(--celadon);
+}
 h2, h3 {
   color:var(--tyrian-purple);
 }
@@ -480,7 +486,7 @@ margin-top: 6rem;
     border-radius: 2rem;
     margin-bottom: 1rem;
   }
-}
+
 .h3-about-alumnos{
   margin-top: 4rem;
   margin-bottom: -1.5rem;
@@ -513,4 +519,4 @@ margin-top: 6rem;
   .footer-bottom p {
   color: white;
 }
-
+}

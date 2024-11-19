@@ -2,7 +2,6 @@
   background: url("../img/home/background.jpg") 0px -221px / cover;
   margin: 0 -6rem;
   padding: 15rem 0;
-  height: 100px;
   background-repeat: no-repeat;
 }
 
@@ -43,6 +42,10 @@
 }
 strong {
   color: var(--tyrian-purple);
+}
+
+p{
+  text-align: justify;
 }
 
 /*bienvenidos*/
@@ -86,7 +89,7 @@ strong {
 .card {
   border: 1px solid #cccccc;
   border-radius: 2rem;
-  width: 30%;
+  width: 25%;
   padding: 1rem;
   text-align: center;
   background-color: #acf7c13f;
@@ -95,7 +98,7 @@ strong {
 .card-2 {
   border: 1px solid #ddd;
   border-radius: 2rem;
-  width: 30%;
+  width: 25%;
   padding: 1rem;
   text-align: center;
   background-color: var(--tyrian-purple);
@@ -172,7 +175,7 @@ strong {
   color: var(--tyrian-purple);
   font-size: 2.5rem;
   text-align: center;
-  margin-top: 8rem;
+  margin-top: 12rem;
   margin-bottom: 2rem;
 }
 
@@ -187,11 +190,12 @@ strong {
 .cont-p-opiniones {
   text-align: start;
   color: black;
+  text-align: justify;
 }
 
 .cont-img-inicio {
-  width: 35%;
-  height: 35%;
+  width: 30%;
+  height: 30%;
   border-radius: 2rem;
 }
 .h4-noticias {
@@ -215,6 +219,7 @@ strong {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: -8rem;
 }
 .noticias-p-img {
   width: 93%;
