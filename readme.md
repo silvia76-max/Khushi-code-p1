@@ -1,4 +1,4 @@
-![logo](https://github.com/silvia76-max/Khushi-code-p1/blob/main/img/logo-esgrima.svg)
+![logo](https://github.com/silvia76-max/Khushi-code-p1/blob/main/img/logo-esgrima-lineas-negras.svg)
 
 # Club de Esgrima Muxica
 
@@ -12,7 +12,7 @@
 
 ## Características:
 
-**Página principal:** Información sobre el club y su misión.
+-**Página principal:** Información sobre el club y su misión.
 - **Eventos:** Calendario y detalles de próximos eventos y competencias.
 - **Galería:** Fotos y videos destacados de entrenamientos y torneos.
 - **Contacto:** Formulario para que los usuarios interesados puedan comunicarse con el club.
@@ -50,12 +50,13 @@ imagenes
 ---
 ## 🖼️ capturas de pantalla
 ![App Screenshot](https://github.com/silvia76-max/Khushi-code-p1/blob/main/img/contacto/esgrima-01.jpeg)
+[App Screenshot](https://github.com/silvia76-max/Khushi-code-p1/blob/main/img/home/background3.png)
 ![App Screenshot](/home/penascalf5/Documentos/Khushi-code-p1/img/noticiasscreen.png)
-![App Screenshot](/home/penascalf5/Documentos/Khushi-code-p1/img/formularioscreen.png)
-![App Screenshot](/home/penascalf5/Documentos/Khushi-code-p1/img/clasesscreen.png)
-![App Screenshot](/home/penascalf5/Documentos/Khushi-code-p1/img/homescreen.png)
+![App Screenshot](https://github.com/silvia76-max/Khushi-code-p1/blob/main/img/formularioscreen.png)
+![App Screenshot](https://github.com/silvia76-max/Khushi-code-p1/blob/main/img/clasesscreen.png)
+![App Screenshot](https://github.com/silvia76-max/Khushi-code-p1/blob/main/img/homescreen.png)
 ![App Screenshot](https://github.com/silvia76-max/Khushi-code-p1/blob/main/img/contacto/Localizaci%C3%B3n-MUXIKA-escuela.png)
-![App Screenshot](/home/penascalf5/Documentos/Khushi-code-p1/img/grafico git.png)
+![App Screenshot](https://github.com/silvia76-max/Khushi-code-p1/blob/main/img/grafico%20git.png)
 
 
 
