@@ -7,20 +7,11 @@
         width: 100%;
       }
 
-<<<<<<< HEAD
-   .container__cards {
-          width: 300px;
-          margin: 2rem;
-          display: flex;
-          flex-wrap: wrap;
-          
-          background-color: white;
-           }  
-   @media script and (min-width:480px)and(max-width:800px) {
-=======
       .card-alumnos {
         border: 1px solid #cccccc;
         border-radius: 2rem;
+        max-width: 30rem;
+        min-width: 20rem;
         width: 18%;
         padding: 1rem;
         text-align: center;
@@ -29,7 +20,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        box-shadow: 0.25rem 0.25rem 0.8rem var(--tyrian-purple);
+        margin-bottom: 1rem;
       }
       
       .card-alumnos img {
@@ -37,7 +28,6 @@
         width: 100%;
         box-shadow:var(--tyrian-purple);
       }
->>>>>>> ee29c7762222abea8b662d3a8290fc0ee60b3533
 
       .card-alumnos h3 {
         margin-top: 0.6px;
@@ -63,202 +53,46 @@
       }
 
 
-@media script and (min-width:480px)and(max-width:800px) {
 
-  .cover__card{
-            width: 200px;
-            height: 90px;
-          }
-  .cover__card img{
-        width: 80%;
-        height: 90px;
-            }
-.cards { 
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  text-align: center;
-
-       }
-        } 
-.cards { 
-      width: 130%;
-      height: 650px;
-      box-sizing: border-box;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      text-align: center;
-      padding: 15px;
-      border-radius: 10px;
-      margin: auto;
-      box-shadow: 0.25rem 0.25rem 0.25rem var(--tyrian-purple);
-      background-color: var(--celadon);
-       }
-
-<<<<<<< HEAD
-           }
-            } 
-    .cards { 
-          width: 130%;
-          height: 650px;
+       @media only screen and (max-width: 530px) {
+        main {
+          margin: 2rem;
+          padding: 0;
+        }
+        .cards-container-alumnos {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          flex-wrap: wrap;
+   
+          width: 100%;
+        }
+  
+        .card-alumnos {
+          border: 1px solid #cccccc;
+          border-radius: 2rem;
+          width: 100%;
+          padding: 1rem;
+          text-align: center;
+          background-color: var(--backtrans);
           box-sizing: border-box;
           display: flex;
           flex-direction: column;
-          justify-content: space-between;
-          text-align: center;
-          padding: 15px;
-          border-radius: 10px;
-          margin: auto;
-          box-shadow: 0.25rem 0.25rem 0.25rem var(--tyrian-purple);
-          background-color: var(--celadon);
-           }
-
-              
-   .cover__card{
-        width: 300px;
-        height: 180px;
-        border-radius: 10px;
-        box-sizing: border-box;
-        overflow: hidden;
-           }
-  .cover__card img{
-        width: 110%;
-        height: 300px;
-        border: 3px solid var(--tyrian-purple);
-          }
-  @media screen and (max-width: 480px), (max-width:780px){
-      .description__card h2 {
-        font-size: 20px;
-        font-weight: 200;
+          justify-content: space-around;
+        }
+      
+      
+      
       }
-    }
-   
-
-  @media script and (min-width:480px)and(max-width:800px) {
-
-        .description__card h2{ font-size: 15px; 
-                                font-weight: 150;   }
-        .description__card p {
-          font-size: 10px;
-          font-weight: 100;
+      
+      @media screen and (max-width: 841px) {
+        .cards-container-alumnos {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          flex-wrap: wrap;
+          margin: 0 auto;
+          width: 50%;
         }
-              }
-  .description__card h2{
-        width: 100%;
-        font-size: 30px;
-        font-weight: 300;
-        text-align: center;
-        margin-top:20px;
-        margin-bottom:30px;
-        color: var(--tyrian-purple);
-        }
-   @media screen and (max-width: 480px), (max-width:780px){
-   .description__card p {
-            font-size: 16px;
-            font-weight: 50;
-          }
-        }
-   .description__card p {
-        width: 100%;
-        font-size: 20px;
-        font-weight: 200px;
-        text-align: center;
-        color: #1d0a0a;
-        margin-bottom: 100px;
-            }
-
-  .description__card input {
-        background-color: var(--tyrian-purple); 
-        border: none;
-        border-radius: 0.5rem;
-        color: var(--celadon);
-        padding:10px;
-        display: inline-block;
-        padding:10px 10px;
-        text-align: center;
-        text-decoration: none;
-        font-size: 15px;
-        cursor: pointer;
-        transition-duration: 0.3s;
-        margin: 0.75px;
-        margin-bottom: o, auto;
-           }
-=======
->>>>>>> ee29c7762222abea8b662d3a8290fc0ee60b3533
-          
-.cover__card{
-    width: 300px;
-    height: 180px;
-    border-radius: 10px;
-    box-sizing: border-box;
-    overflow: hidden;
-       }
-.cover__card img{
-    width: 110%;
-    height: 300px;
-    border: 3px solid var(--tyrian-purple);
+  
       }
-
-
-
-@media screen and (max-width: 480px), (max-width:780px){
-  .description__card h2 {
-    font-size: 20px;
-    font-weight: 200;
-  }
-}
-
-
-@media script and (min-width:480px)and(max-width:800px) {
-
-    .description__card h2{ font-size: 15px; 
-                            font-weight: 150;   }
-    .description__card p {
-      font-size: 10px;
-      font-weight: 100;
-    }
-          }
-.description__card h2{
-    width: 100%;
-    font-size: 30px;
-    font-weight: 300;
-    text-align: center;
-    margin-top:20px;
-    margin-bottom:30px;
-    color: var(--tyrian-purple);
-    }
-@media screen and (max-width: 480px), (max-width:780px){
-.description__card p {
-        font-size: 16px;
-        font-weight: 50;
-      }
-    }
-.description__card p {
-    width: 100%;
-    font-size: 20px;
-    font-weight: 200px;
-    text-align: center;
-    color: #1d0a0a;
-    margin-bottom: 100px;
-        }
-
-.description__card input {
-    background-color: var(--tyrian-purple); 
-    border: none;
-    border-radius: 0.5rem;
-    color: var(--celadon);
-    padding:10px;
-    display: inline-block;
-    padding:10px 10px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 15px;
-    cursor: pointer;
-    transition-duration: 0.3s;
-    margin: 0.75px;
-    margin-bottom: o, auto;
-       }
- 
-
