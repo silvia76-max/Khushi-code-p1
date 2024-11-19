@@ -1,14 +1,18 @@
 .hero {
-  background: url("../img/home/background.jpg") 0px -221px / cover;
+  background: url("../img/home/background.jpg");
   margin: 0 -6rem;
   padding: 15rem 0;
-  height: 100px;
+  background-color: rgba(202, 202, 202, 0.377);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
   background-repeat: no-repeat;
 }
 
 .hero-contenido {
   display: flex;
   justify-content: center;
+  align-items: center;
   animation-name: slide;
   animation-duration: 5s;
 }
@@ -16,12 +20,13 @@
 .hero-logo {
   padding: 9rem;
   position: relative;
+  margin: 2rem;
 }
 
 .hero-logo img {
   width: 100%;
   position: absolute;
-  top: -83px;
+  top: 0px;
   left: 68px;
 }
 
@@ -43,6 +48,10 @@
 }
 strong {
   color: var(--tyrian-purple);
+}
+
+p{
+  text-align: justify;
 }
 
 /*bienvenidos*/
@@ -86,7 +95,7 @@ strong {
 .card {
   border: 1px solid #cccccc;
   border-radius: 2rem;
-  width: 30%;
+  width: 25%;
   padding: 1rem;
   text-align: center;
   background-color: #acf7c13f;
@@ -95,7 +104,7 @@ strong {
 .card-2 {
   border: 1px solid #ddd;
   border-radius: 2rem;
-  width: 30%;
+  width: 25%;
   padding: 1rem;
   text-align: center;
   background-color: var(--tyrian-purple);
@@ -119,24 +128,8 @@ strong {
 .h3-about {
   text-justify: center;
 }
-.button-invertido {
-  background-color: var(--celadon);
-  color: var(--tyrian-purple);
-  border: 0.1rem solid var(--celadon);
-  border-radius: 0.5rem;
-  padding: 1rem 2rem;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition-duration: 0.1s;
-}
-.button-invertido:hover {
-  background-color: var(--tyrian-purple);
-  color: var(--celadon);
-}
+
+
 
 .card ul {
   list-style-type: disc;
@@ -172,7 +165,7 @@ strong {
   color: var(--tyrian-purple);
   font-size: 2.5rem;
   text-align: center;
-  margin-top: 8rem;
+  margin-top: 12rem;
   margin-bottom: 2rem;
 }
 
@@ -187,11 +180,12 @@ strong {
 .cont-p-opiniones {
   text-align: start;
   color: black;
+  text-align: justify;
 }
 
 .cont-img-inicio {
-  width: 35%;
-  height: 35%;
+  width: 30%;
+  height: 30%;
   border-radius: 2rem;
 }
 .h4-noticias {
@@ -215,6 +209,7 @@ strong {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: -8rem;
 }
 .noticias-p-img {
   width: 93%;
@@ -349,12 +344,44 @@ strong {
   animation-duration: 5s;
 }
 
+@media only screen and (max-width: 530px) {
+
+  .hero {
+    margin-bottom: -15rem;
+  }
+
+  .cont-p-inicio {
+    width: 100%;
+    text-align: justify;
+  }
+  .cont-img-bienvenida {
+    width: 100%;
+  }
+
+  .card {
+    width: 95%;
+  }
+
+  .card-2 {
+    width: 95%;
+  }
+
+
+  .texto-opiniones {  
+    margin-right: 0rem;
+
+  }
+
+
+
+}
+
 @media screen and (max-width: 841px) {
   body {
     background-image: none;
   }
   .hero {
-    height: 22rem;
+ 
     margin-bottom: -9rem;
   }
   .contenedor-p-img {
@@ -367,6 +394,7 @@ strong {
   .cont-inicio-1 {
     flex-direction: column;
     align-items: center;
+    margin-top: 10rem;
   }
 
   .cont-img-bienvenida {
@@ -377,16 +405,21 @@ strong {
   .cont-p-inicio {
     width: 90%;
     margin-bottom: 1rem;
+    min-width: 250px;
   }
   .cards-container {
     width: 100%;
   }
   .card {
     width: 45%;
+    min-width: 250px;
+    font-size: 0.8rem;
   }
 
   .card-2 {
     width: 45%;
+    min-width: 250px;
+    font-size: 0.8rem;
   }
 
   .contenedor-p-img-3 {
@@ -436,33 +469,4 @@ strong {
     width: 100%;
     margin-top: 1rem;
   }
-}
-
-@media only screen and (max-width: 530px) {
-
-  .hero {
-    margin-bottom: -15rem;
-  }
-  .cont-p-inicio {
-    width: 100%;
-    text-align: justify;
-  }
-  .cont-img-bienvenida {
-    width: 100%;
-  }
-
-  .card {
-    width: 95%;
-  }
-
-  .card-2 {
-    width: 95%;
-  }
-
-
-  .texto-opiniones {  
-    margin-right: 0rem;
-
-  }
-
 }

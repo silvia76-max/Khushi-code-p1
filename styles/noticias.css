@@ -2,11 +2,56 @@
 	box-sizing: border-box;
   }
 
-
   body {
 	background:  #f1f1f1;
   }
- 
+
+  .nav{
+     display: flex;
+	 justify-content: center;
+     flex-direction: column;
+	 line-height: 0.5;
+	 padding-top: 0rem;
+     text-align: center;
+	 font-size: larger;
+  }
+
+  .card{
+	border-radius: 2rem;
+	
+  }
+  .row{
+	width: 80%;
+	margin: 0 auto;
+  }
+  .contenedor{
+	 display: flex;
+	 flex-direction: column;
+	 gap: 0rem;
+	 padding-bottom: 10rem;
+  }
+   /* styling for peragraphs*/
+  p {
+    width: 80%;
+	margin: 0;
+	text-align: justify;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+     p2  { 
+	 font-size: 20px;
+	 padding: 10px;
+	 color: rgb(167, 3, 93);
+
+   }
+
+  /* styling for list items*/
+
+  li  {
+	  color: rgb(196, 103, 146);
+  }
+
 
   .header-blog {
 	padding: 20px;
@@ -14,38 +59,55 @@
 	text-align: center;
 	background: rgb(175, 1, 88);
   }
+
   
   .column {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 60%;
+	width: 100%;
 	margin: 0 auto;
+	padding: 20px;
   }
-  
+
+  @media screen and (max-width: 1080px) {
+	.cont-img{ width: 350px;}
+	   .cont-img{ padding: 8rem; }
+   
+   }
   .cont-img {
 	background-color: #ffffff;
 	width: 100%;
-	padding: 10px;
-	display: flex;
+	padding: 20px;
+	display:flex;
 	justify-content: center;
+    
   }
+ 
    .card h2{
 	 color: rgb(153, 3, 73);
+	 padding: 10px;
   }
   .card h5{
 	color: rgb(153, 3, 73);
   }
   .card p{
 	color: rgb(153, 3, 73);
+	padding: 10px;
   }
    
-  
+
   /* Add a card effect for articles */
   .card {
+	width: 100%;
 	background-color: white;
 	padding: 20px;
 	margin-top: 20px;
   }
 
-  
+
+  @media screen and (max-width: 780px) {
+ .cont-img{ width: 350px;}
+	.cont-img{ padding: 8rem; }
+
+}
