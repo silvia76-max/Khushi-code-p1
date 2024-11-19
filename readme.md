@@ -1,31 +1,31 @@
-# Khushi Code P1
+![logo](https://github.com/silvia76-max/Khushi-code-p1/blob/main/img/logo-esgrima.svg)
 
-¡Bienvenido a **Khushi Code P1**! Este proyecto está diseñado para la creacion de una pagina web para el Club de esgrima Muxica. Aquí encontrarás los detalles sobre cómo instalar, configurar y usar este proyecto.
+# Club de Esgrima Muxica
+
+¡Bienvenido a **Khushi Code P1**! Este proyecto está diseñado e implementado para la creacion de una pagina web para el Club de esgrima Muxica. Aquí encontrarás los detalles sobre cómo instalar, configurar y usar este proyecto.
 
 ---
 
 ## 📋 Descripción
 
-"Este proyecto es una pagina web desarrollada para gestionar tanto a los socios del club, como para captacion de nuevos socios. ofrecer informacion y recibir feedback"
+"Este proyecto es una pagina web que aplica diferentes soluciones, tanto de imagen y reputacion de marca,como de gestion de usuarios, gestion de bases de datos, y como publicidad y marketing.
 
-### Características:
+## Características:
 
-  - Gestión de usuarios
-  - Interfaces amigables
-  - Nuevas inscripciones
-  - Reserva de masterclass
-  - Informacion y noticias realccionadas
-  - Oferta de promociones
----
+**Página principal:** Información sobre el club y su misión.
+- **Eventos:** Calendario y detalles de próximos eventos y competencias.
+- **Galería:** Fotos y videos destacados de entrenamientos y torneos.
+- **Contacto:** Formulario para que los usuarios interesados puedan comunicarse con el club.
+nido.
 
 ## 🚀 Tecnologías utilizadas
 
 Este proyecto utiliza las siguientes tecnologías y herramientas:
 
-- Lenguaje de programación: HTML y CSS 
-- Git/Github : git push
-para el control de versiones
-- Otras herramientas: Figma, trello
+-  **HTML5**: Estructuración de contenido.
+- **CSS3**: Estilización del diseño web.
+- **Git/Github** : github para el control de versiones
+- **Otras herramientas**: Figma, 
 
 ---
 
@@ -40,6 +40,24 @@ La estructura básica del proyecto es la siguiente:
 -Contacto
 
 ---
+## capturas de pantalla
+![App Screenshot](https://github.com/silvia76-max/Khushi-code-p1/blob/main/img/contacto/esgrima-01.jpeg)
+
+![App Screenshot](https://github.com/silvia76-max/Khushi-code-p1/blob/main/img/home/esgrima-corto-home.jpeg)
+
+![App Screenshot](https://github.com/silvia76-max/Khushi-code-p1/blob/main/img/home/background3.png)
+
+![App Screenshot](https://github.com/silvia76-max/Khushi-code-p1/blob/main/img/contacto/Localizaci%C3%B3n-MUXIKA-escuela.png)
+
+
+![App Screenshot](/home/penascalf5/Documentos/Khushi-code-p1/img/grafico de commits.png)
+
+![App Screenshot](/home/penascalf5/Documentos/Khushi-code-p1/img/grafico git.png)
+
+
+## Demo
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/UkLaXlNG5tFib74SMrGNir/Club-de-Esgrima-Muxica?node-id=5-1687&embed-host=share" allowfullscreen></iframe>
+
 
 
 ## 📦 Instalación
@@ -49,46 +67,49 @@ Sigue los pasos a continuación para configurar y ejecutar el proyecto localment
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/silvia76-max/Khushi-code-p1.git
-
-
    cd Khushi-code-p1
-Khushi-code-p1/ ├── src/ # Código fuente principal ├── assets/ # Recursos (imágenes, estilos, etc.) ├── tests/ # Casos de prueba ├── README.md # Documentación del proyecto ├── requirements.txt # Dependencias (si aplica) └── ... # Otros archivos relevantes
+-Instala las dependencias necesarias:
 
+[pip install -r requirements.txt]
 
-Instala las dependencias necesarias:
-
-[comando de instalación según el proyecto, por ejemplo: pip install -r requirements.txt]
-
-Ejecuta el proyecto:
-
-[comando para iniciar el proyecto, por ejemplo: python app.py]
+## 🧪 Pruebas
 Para ejecutar las pruebas unitarias, utiliza el siguiente comando:
+  [pytest]
 
-[comando para ejecutar las pruebas, por ejemplo: pytest]
+## 🤝 Contribuciones
 ¡Las contribuciones son bienvenidas! Si deseas colaborar:
 
-    Haz un fork del repositorio.
-    Crea una nueva rama:
+   1. Haz un fork del repositorio.
+      Crea una nueva rama:
+      git checkout -b feature/nueva-funcionalidad
 
-git checkout -b feature/nueva-funcionalidad
+   2. Realiza tus cambios y haz un commit:
+      git commit -m "Añadida nueva funcionalidad"
 
-Realiza tus cambios y haz un commit:
+   3. Envía tu rama a tu fork:
+      git push origin feature/nueva-funcionalidad
 
-git commit -m "Añadida nueva funcionalidad"
+   4. Abre un Pull Request en este repositorio.
 
-Envía tu rama a tu fork:
+## 📄 Licencia
 
-git push origin feature/nueva-funcionalidad
+Este proyecto está licenciado bajo la licencia [MIT] (https://opensource.org/license/mit/) Consulta el archivo LICENSE para más detalles.
 
-Abre un Pull Request en este repositorio.
-📄 Licencia
 
-Este proyecto está licenciado bajo la licencia [nombre de la licencia]. Consulta el archivo LICENSE para más detalles.
-🛠 Contacto
+## 🛠 Contacto 
+![Logo](https://github.com/silvia76-max/Khushi-code-p1/blob/main/img/khushi-code-horizontal.svg)
+este proyecto ha sido creado con ❤️ por:
 
-Si tienes alguna duda o comentario, no dudes en contactarme a través de [tu correo electrónico o enlaces sociales].
+nuestro equipo:
+gaizkamg@gmail.com
+chamorro.lucia@gmail.com
+t.intxaurtietadev@gmail.com
+mahamsajid450@gmail.com
+silviarodriguezexposito.76@gmail.com
 
-¡Gracias por tu interés en este proyecto!
-
+Si tienes alguna duda o comentario, no dudes en contactarme a través de
+ email: khushicodesolucionesdesarrollo@gmail.com
 
 Si tienes información adicional específica del proyecto, compártela para personalizar aún más el archivo. 😊
+
+¡Gracias por tu interés en este proyecto!
