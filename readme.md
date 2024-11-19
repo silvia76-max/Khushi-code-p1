@@ -22,7 +22,7 @@ nido.
 
 Este proyecto utiliza las siguientes tecnologías y herramientas:
 
--  **HTML5**: Estructuración de contenido.
+- **HTML5**: Estructuración de contenido.
 - **CSS3**: Estilización del diseño web.
 - **Git/Github** : github para el control de versiones
 - **Otras herramientas**: Figma, 
@@ -32,15 +32,23 @@ Este proyecto utiliza las siguientes tecnologías y herramientas:
 ## 📂 Estructura del repositorio
 
 La estructura básica del proyecto es la siguiente:
-
--Home
--El Club
--Clases
--Noticias
--Contacto
+📂
+-Home * index.html
+-El Club * about.html
+-Clases * clases.html / destino.html
+-Noticias * noticias.html
+-Contacto * contacto.html
+📂
+styles/styles.css
+about.css
+clases.css/ destino.css
+noticias.css
+contacto.css
+📂
+imagenes
 
 ---
-## capturas de pantalla
+## 🖼️ capturas de pantalla
 ![App Screenshot](https://github.com/silvia76-max/Khushi-code-p1/blob/main/img/contacto/esgrima-01.jpeg)
 ![App Screenshot](/home/penascalf5/Documentos/Khushi-code-p1/img/noticiasscreen.png)
 ![App Screenshot](/home/penascalf5/Documentos/Khushi-code-p1/img/formularioscreen.png)
@@ -53,7 +61,7 @@ La estructura básica del proyecto es la siguiente:
 
 
 
-## Demo
+## 📺 Demo
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/UkLaXlNG5tFib74SMrGNir/Club-de-Esgrima-Muxica?node-id=5-1687&embed-host=share" allowfullscreen></iframe>
 
 
