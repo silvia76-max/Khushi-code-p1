@@ -63,6 +63,55 @@
     height: 300px;
     border: 3px solid var(--tyrian-purple);
       }
+
+       /*FOOTER*/
+
+footer {
+
+  color: rgb(79, 79, 192);
+  padding: 20px;
+  text-align: center;
+  }
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+ }
+
+.footer-section {
+  width: 200px;
+  margin: 10px;
+ }
+
+.footer-section p {
+  font-size: 18px;
+  color: var(--celadon);
+  margin-bottom: 10px;
+  }
+
+.social a img {
+  width: 24px;
+  height: 24px;
+  margin: 05px;
+  vertical-align: middle;
+}
+.search input {
+  padding: 8px;
+  width: 90%;
+  border-radius: 3px;
+  border: none;
+}
+.footer-bottom {
+  border-bottom: 10px solid #5e5a5a;
+  padding: 10px;
+  font-size: 12px;
+  color: #777;
+}
+.footer-bottom a:hover {
+  color: #777;
+}
 @media screen and (max-width: 480px), (max-width:780px){
   .description__card h2 {
     font-size: 20px;
@@ -122,75 +171,9 @@
        }
       
 
- /*FOOTER*/
 
-footer {
-
-    color: rgb(79, 79, 192);
-    padding: 20px;
-    text-align: center;
-    }
-
- .footer-content {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 20px;
-   }
-
-  .footer-section {
-    width: 200px;
-    margin: 10px;
-   }
-
-  .footer-section p {
-    font-size: 18px;
-    color: var(--celadon);
-    margin-bottom: 10px;
-    }
-
-  .social a img {
-    width: 24px;
-    height: 24px;
-    margin: 05px;
-    vertical-align: middle;
-  }
-  .search input {
-    padding: 8px;
-    width: 90%;
-    border-radius: 3px;
-    border: none;
-  }
-.footer-bottom {
-    border-bottom: 10px solid #5e5a5a;
-    padding: 10px;
-    font-size: 12px;
-    color: #777;
-  }
-.footer-bottom a:hover {
-    color: #777;
-  }
 @media screen and (max-width: 800px) {
-.nav1 {
-      display: flex;
-      flex-direction: column;
-      padding-right: 2rem;
-      color: var(--celadon);
-      padding-left: 3rem;
-      line-height: 0.5;
-      padding-top: 0rem;
-      text-align: center;
-      font-size: larger;
-    
-       }
-       
-header {
-      height: 21rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      padding-bottom: 2rem;
-    }
+
     
 .contenedor {
       display: flex;

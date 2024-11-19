@@ -270,8 +270,6 @@ h2, h3 {
   }
 
   .heroimg {
-    margin-top: -9rem;
-    height: 8rem; 
     background-position: center;
   }
 
@@ -437,9 +435,7 @@ margin-top: 6rem;
     margin-top: 8rem;
   }
 
-  .heroimg {
-    margin-top: -9rem;
-    height: 8rem; 
+  .heroimg { 
     background-position: center;
   }
 
