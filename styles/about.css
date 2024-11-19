@@ -208,7 +208,7 @@ h2, h3 {
 /*SEPARADOR*/
 
 .separador {
-  margin-top: ;
+  margin-top: 0rem;
   position: relative;
 }
 
@@ -252,7 +252,7 @@ h2, h3 {
 
 
 /* Media Queries */
-@media only screen and (min-width: 0px) and (max-width: 530px) {
+@media only screen and (min-width: 0px) and (max-width: 529px) {
 
   .titulo-about {
     max-width: 100%;
@@ -418,5 +418,99 @@ margin-top: 6rem;
     width: 40%;
     margin: 1rem;
   }
+}
+
+@media screen and (max-width: 430px) {
+
+  .titulo-about {
+    max-width: 100%;
+  }
+
+  .titulo-about > h1 {
+    font-size: 1.4rem; 
+    margin-top: 8rem;
+  }
+
+  .heroimg {
+    margin-top: -9rem;
+    height: 8rem; 
+    background-position: center;
+  }
+
+  .contenedor-p-img {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .cont-texto {
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+
+  .cont-img {
+    width: 80%; 
+  }
+
+  .mision-vision {
+    flex-direction: column; 
+    align-items: center;
+    padding-bottom: 2rem;
+    text-align: justify;
+  }
+
+  .mision, .vision {
+    width: 90%;
+  }
+  .vision > h3{
+    margin-top: 1rem;
+  }
+
+  .contenido {
+    flex-direction: column;
+    align-items: center; 
+  }
+
+  .contenido p {
+    width: 80%; 
+    margin: 0 0 1rem 0; 
+  }
+
+  .contenido img {
+    width: 70%;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+  }
+}
+.h3-about-alumnos{
+  margin-top: 4rem;
+  margin-bottom: -1.5rem;
+  font-size: 2.4rem;
+}
+
+  .cards-container {
+    flex-direction: column; 
+    align-items: center;
+    margin-bottom: -1.5rem;
+  }
+
+  .card-alumnos {
+    width: 80%;
+    margin-bottom: 1.5rem;
+  }
+
+  .card-alumnos-invertida {
+    width: 80%;
+    margin-bottom: 1.5rem;
+  }
+
+
+  .cont-boton, .cont-boton-ult {
+    margin-bottom: 2rem; 
+  }
+
+  /*--cambio específico porque no se aplicaba el color al footer-bottom*/
+
+  .footer-bottom p {
+  color: white;
 }
 

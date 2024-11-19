@@ -50,22 +50,26 @@
           line-height: 1.5em;
         }
   
+
+
     .container1 {
-          width: 100%;
-          display:flexbox;
-          flex-direction:column;
+         width: 100%;
+         display:flex;
+          flex-wrap: nowrap;
+          flex-direction:row-reverse;
           margin-bottom: 3rem;
-          border-radius: 10px;
+          border-radius:2rem;
           box-sizing: content-box;
           background-color:white;
-          
+        
           }
          
     .container1 img{
           width: 30%; 
-          border-radius: 15px;
-          float: inline-end;
-          margin: 20px;
+          height: 25%;
+          border-radius:2rem;
+          float:left;
+          margin: 50px;
           border: 3px solid var(--violet-jtc);
            }
     .container1 h2{
@@ -74,26 +78,28 @@
           }
 
     .contenido1 {
-          width: 80%; 
-          height: auto;
+          width: 40%; 
           border-radius: 2rem;
           }
      
    .container2 {
           width: 100%;
-          display:flexbox;
-          flex-direction: column;
+          display:flex;
+          flex-wrap: nowrap;
+          flex-direction:row;
           margin-bottom: 3rem;
-          border-radius: 5px;
+          border-radius:2rem;
           box-sizing: content-box;
           background-color:var(--celadon);
+         
          
            }
    .container2 img {
           width: 30%; 
-          border-radius: 15px;
-          margin: 40px; 
-          float: inline-start;
+          height: 25%;
+          border-radius: 2rem;
+          margin: 50px; 
+          float: right;
           border: 3px solid white;
           } 
    .container2 h2{
@@ -101,7 +107,7 @@
           align-items: center;
                }
    .contenido2 {
-          width: 90%; 
+          width: 40%; 
           height: auto;
           border-radius: 2rem;
          
@@ -109,20 +115,23 @@
    
    .container3 {
           width: 100%;
-          display:flexbox;
-          flex-direction: column;
+          display:flex;
+          flex-wrap: nowrap;
+          flex-direction:row-reverse;
           margin-bottom: 3rem;
-          border-radius: 10px;
+          border-radius: 2rem;
           box-sizing: content-box;
           background-color:white;
+          
          
           }
  
    .container3 img {
           width: 30%; 
-          border-radius: 15px;
+          height: 25%;
+          border-radius: 2rem;
           margin: 40px;
-          float: inline-end; 
+          float: left; 
           border: 3px solid var(--celadon);
            } 
     .container3 h2{
@@ -131,27 +140,28 @@
           }
       
    .contenido3 {
-          width: 80%; 
+          width: 40%; 
           height: auto;
           border-radius: 2rem;
            } 
    .container4 {
           width: 100%;
-          height: auto;
-          display: flexbox;
-          flex-direction: column;
+          display: flex;
+          flex-wrap: nowrap;
+          flex-direction: row;
           margin-bottom: 3rem;
-          border-radius: 10px;
+          border-radius: 2rem;
           box-sizing: content-box;
           background-color: var(--celadon);
+        
        
            }
    .container4 img {
-          width: 28%; 
-          height: auto;
-          border-radius: 15px;
-          margin: 40px; 
-          float:left;
+          width: 30%; 
+          height: 25%;
+         border-radius: 2rem;
+          margin: 50px; 
+          float:right;
           border: 3px solid var(--tyrian-purple);
           }
     .container4 h2{
@@ -159,17 +169,18 @@
           align-items: center;
           }
     .contenido4 {
-          width: 85%; 
+          width: 40%; 
           height: auto;
           border-radius: 2rem;
           }  
      
    .container5 {
           width: 100%;
-          display: flexbox;
-          flex-direction: column;
+          display: flex;
+          flex-wrap: nowrap;
+          flex-direction: row-reverse;
           margin-bottom: 3rem;
-          border-radius: 10px;
+          border-radius: 2rem;
           box-sizing: content-box;
           background-color:white;
          
@@ -177,9 +188,10 @@
            
    .container5 img{
           width: 30%; 
-          border-radius: 15px;
-          margin: 40px;
-          float: inline-end;
+          height: 25%;
+          border-radius:2rem;
+          margin: 50px;
+          float: left;
           border: 3px solid var(--celadon); 
            } 
 
@@ -188,7 +200,7 @@
           align-items: center;
                }
    .contenido5 {
-          width: 80%; 
+          width: 40%; 
           height: auto;
           border-radius: 2rem;
           }
