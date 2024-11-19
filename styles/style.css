@@ -145,10 +145,9 @@ h1 {
   color: var(--celadon);
   font-family: "Philosopher", "Gill Sans MT", Calibri, "Trebuchet MS",
     sans-serif;
-  line-height: 0.5rem;
-  padding-top: 0.5rem;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-weight: bold;
+  line-height: 0.3rem;
 }
 
 h2 {
@@ -177,23 +176,13 @@ h4 {
   font-size: 1.3rem;
 }
 
-.subtitle {
-  color: var(--celadon);
-  font-family: "Quicksand", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  line-height: 0rem;
-  font-size: 1rem;
-
-  padding-left: 0.3rem;
-}
-
 a {
   color: var(--celadon);
   text-decoration: none;
 }
 
-/*-----COLOR POR DEFINIR*/
 a:hover {
-  color: var(--bittersweet);
+  color: var(--azul-claro);
 }
 
 
@@ -215,66 +204,49 @@ a:hover {
   .button:hover{
 	background-color: var(--celadon);
 	color: var(--tyrian-purple);
-
-
   }
 
-  
-
-
-/*ANIMACIÓN*/
-
-@keyframes slide{
-  from {background-color:var(--tyrian-purple)}
-  to {background-color: var(--violet-jtc)}
-  }
-  
-  .divAnimado {
-  width: 100%;
-
-  background-color: red;
-  animation-name: slide;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  }
-
-
-body {
-  background-color: black;
+  body {
+  /*background-color: black;*/
   font-family: "Quicksand", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: var(--celadon);
   font-size: 1.2rem;
 
- 
 }
 
-.identidad {
-  display: flex;
-  gap: 0rem;
-}
+/* ---- BARRA SUPERIOR DE NAVEGACIÓN ---- */
 
+.navigator input,
 .nav1 {
-  display: flex;
-  gap: 2rem;
-  padding-right: 2rem;
-  padding-top: 2rem;
-  color: var(--celadon);
-  font-family: "Quicksand", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight:600;
-  font-size: 1.1rem;
+  display: none;
 }
 
-header {
-  background-color: var(--tyrian-purple);
-  height: 6rem;
-  display: flex;
-  justify-content: space-between;
+.navigator label {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  border: 1px solid;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
 }
+
+.navigator input:checked  ~ ul{
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---- FIN BARRA SUPERIOR DE NAVEGACIÓN ---- */
 
 main {
   padding-left: 6rem;
   padding-right: 6rem;
   padding-bottom: 8rem;
+}
+
+section{
+  padding: 1rem;
+  margin: 2rem 0;
 }
 
 .contenedor{ 
@@ -343,56 +315,6 @@ main {
 /*FOOTER*/
 
 footer {
-<<<<<<< HEAD
-  background-color: #120f0f;
-  color: rgb(79, 79, 192);
-  padding: 20px;
-  text-align: center;
-}
-
-.footer-content {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding: 20px;
-}
-
-.footer-section {
-  width: 200px;
-  margin: 10px;
-}
-
-.footer-section p {
-  font-size: 18px;
-  color: var(--celadon);
-  margin-bottom: 10px;
-}
-
-.social a img {
-  width: 24px;
-  height: 24px;
-  margin: 05px;
-  vertical-align: middle;
-}
-.search input {
-  padding: 8px;
-  width: 90%;
-  border-radius: 3px;
-  border: none;
-}
-.footer-bottom {
-  border-bottom: 10px solid #5e5a5a;
-  padding: 10px;
-  font-size: 12px;
-  color: #777;
-}
-.footer-bottom a:hover {
-  color: #777;
-}
-
-@media screen and (max-width: 800px) {
-  .nav1 {
-=======
   background-color: #dedee4;
   color: rgb(56, 56, 56);
   font-size: 16px;
@@ -477,60 +399,139 @@ footer {
   font-size:0.8rem;
 }
 
-
- @media screen and (max-width: 840px) {
-  /*.nav1 {
->>>>>>> 37e85000191babe28d684d31349021154953b241
-    display: flex;
-    flex-direction: column;
-    padding-right: 2rem;
-    color: var(--celadon);
-    padding-left: 3rem;
-    line-height: 0.5;
-    padding-top: 0rem;
-	  text-align: center;
-	  font-size: larger;
-  }
-
-  header {
-    height: 21rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-bottom: 2rem;
-  }
-
-  .contenedor {
-    display: flex;
-    flex-direction: column;
-    gap: 0rem;
-<<<<<<< HEAD
-    padding-bottom: 10rem;
+@media only screen and (max-width: 840px) {
   
-=======
->>>>>>> 37e85000191babe28d684d31349021154953b241
+header {
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--tyrian-purple);
   }
 
-  .identidad {
+  .navigator {
+      display: flex;
+      flex-direction: column;
+      padding-right: 2rem;
+      color: var(--celadon);
+      padding-left: 3rem;
+      line-height: 0.5;
+      padding-top: 0rem;
+      text-align: center;
+  }
+
+.navigator img{
+  height: 80px;
+  align-self: flex-start;
+
+}
+
+.navigator li {
+  margin: 1rem;
+  font-size: 2rem;
+  border: 1px solid;
+  padding: 1rem;
+}
+
+.navigator li:active{
+  background-color: var(--azul-claro);
+  color: var(--violet-jtc);
+}
+
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+}
+
+.identidad {
     display: flex;
     gap: 0rem;
-  }*/
+}
 
 .footer-content{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    border-top: 1px solid#444;
+ }
+
+footer{
+  padding: 0;
+ }
+
+}
+
+@media only screen and (min-width:841px) {
+
+/* ---- BARRA SUPERIOR DE NAVEGACIÓN ---- */
+
+.navigator {
+  background-color: var(--tyrian-purple);
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.navigator img{
+  width: 200px;
+}
+
+.navigator label{
+  display: none;
+}
+
+.navigator input:checked  ~ ul{
+  display: flex;
+  flex-direction:row;
+}
+
+.nav1 {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  color: var(--celadon);
+  font-family: "Quicksand", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight:600;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  padding-right: 3rem;
+}
+
+.nav1 a {
+  color: var(--celadon);
+  text-decoration: none;
+  padding-bottom: 0.5rem;
+}
+
+.nav1 a::after {
+  display:block;
+  content: '';
+  border-bottom: solid 3px var(--azul-claro);  
+  transform: scaleX(0);  
+  margin-top: 3px;
+  transition: transform 250ms ease-in-out;
+}
+
+.nav1 a:hover::after {
+  transform: scaleX(1);
+  transform-origin:  0% 50%;
+}
+/* ------------------------------------ */
+
+}
+.footer-content {
 display: grid;
 grid-template-columns: 1fr 1fr; /*fr= fracción*/
 }
 
-.redessociales{
+.redessociales {
   text-align: center;
-  
-  
-  }
 }
-<<<<<<< HEAD
-
-=======
-
 
 @media screen and (max-width: 490px) {
 
@@ -547,4 +548,3 @@ grid-template-columns: 1fr 1fr; /*fr= fracción*/
 
 
 } 
->>>>>>> 37e85000191babe28d684d31349021154953b241
