@@ -12,10 +12,10 @@
 
 ## Características:
 
--**Página principal:** Información sobre el club y su misión.
-- **Eventos:** Calendario y detalles de próximos eventos y competencias.
-- **Galería:** Fotos y videos destacados de entrenamientos y torneos.
-- **Contacto:** Formulario para que los usuarios interesados puedan comunicarse con el club.
+- **Página principal:**  Información sobre el club y su misión.
+- **Eventos:**  Calendario y detalles de próximos eventos y competencias.
+- **Galería:**  Fotos y videos destacados de entrenamientos y torneos.
+- **Contacto:**  Formulario para que los usuarios interesados puedan comunicarse con el club.
 nido.
 
 ## 🚀 Tecnologías utilizadas
