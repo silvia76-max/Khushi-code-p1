@@ -33,26 +33,26 @@ Este proyecto utiliza las siguientes tecnologías y herramientas:
 
 La estructura básica del proyecto es la siguiente:
 
-📂img
-📂styles
-about.css
-clases.css
-contact.css
-destino.css
-home.css
-noticias.css
-style.css
-📂
-about.html
-aviso-legal.html
-clases.html
-contact.html
-cookies.html
-destino.html
-index.html
-noticias.html
-readme.md
-rgpd.html
+  📂img
+  📂styles
+  about.css
+  clases.css
+  contact.css
+  destino.css
+  home.css
+  noticias.css
+    style.css
+  📂
+  about.html
+  aviso-legal.html
+  clases.html
+  contact.html
+  cookies.html
+  destino.html
+  index.html
+  noticias.html
+  readme.md
+  rgpd.html
 ---
 
 
