@@ -71,4 +71,46 @@ main.noticias{
 	background: rgb(175, 1, 88);
   }
 
+  @media only screen and (max-width: 530px) {
+	main {
+	  margin: 2rem;
+	  padding: 0;
+	}
+	.cards {
+		border-radius: 2rem;
+		width: 75%;
+		background-color: rgb(225, 0, 255);
+		padding: 3rem;
+		margin-bottom: 3rem;
+	}
+
+	.contenedor-noticias{
+		width: unset;
+	}
+	.card img{
+		width: 100%;
+		float: unset;
+	}
+  
+  
+  }
+  
+  @media screen and (max-width: 841px) {
+	.cards {
+	  display: flex;
+	  flex-direction: row;
+	  justify-content: space-around;
+	  flex-wrap: wrap;
+	  margin: 0 auto;
+	  width: 50%;
+	}
+
+	.card img{
+		width: 100%;
+		float: unset;
+	}
+
+  }
+
+
 
