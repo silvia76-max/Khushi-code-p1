@@ -211,30 +211,6 @@ h2, h3 {
 	color: var(--tyrian-purple);
 
   }
-/*SEPARADOR*/
-
-.separador {
-  margin-top: 0rem;
-  position: relative;
-}
-
-.separador::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: -5.5rem;
-  left: 50%; 
-  transform: translateX(-50%); 
-  width: 150px; 
-  height: 100px; 
-
-  background-image: url("../img/espadas-separador.svg");
-  background-size: 150px 150px; 
-  background-repeat: no-repeat;
-
-  filter: invert(1) sepia(1) saturate(0) hue-rotate(0deg);
-}
-
 
 /*hover*/
 
@@ -388,7 +364,7 @@ margin-top: 6rem;
     flex-direction: row;
     justify-content: space-around;
     padding-bottom: 2rem;
-    margin-bottom: -5rem;
+    /* margin-bottom: -5rem; */
   }
 
   .mision,
