@@ -74,30 +74,45 @@ Sigue los pasos a continuación para configurar y ejecutar el proyecto localment
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/silvia76-max/Khushi-code-p1.git
+
+
+2. Ingresa el directorio del proyecto
+ bash
+  cd khushi-code-p1
+
+3. instala las dependencias necesarias:
+    "npm insatll"
    cd Khushi-code-p1
 
 -Instala las dependencias necesarias:
+
+## 📋 Uso 
+Ejecuta el proyecto:
 
 [pip install -r requirements.txt]
 
 ## 🧪 Pruebas
 Para ejecutar las pruebas unitarias, utiliza el siguiente comando:
+
   [pytest]
 
-## 🤝 Contribuciones
+ 
 ¡Las contribuciones son bienvenidas! Si deseas colaborar:
 
-   1. Haz un fork del repositorio.
-      Crea una nueva rama:
-      git checkout -b feature/nueva-funcionalidad
+   1.  Haz un fork del repositorio.
+    Crea una nueva rama:
 
-   2. Realiza tus cambios y haz un commit:
-      git commit -m "Añadida nueva funcionalidad"
+    git checkout -b feature/nueva-funcionalidad
 
-   3. Envía tu rama a tu fork:
-      git push origin feature/nueva-funcionalidad
+2. Realiza tus cambios y haz un commit:
 
-   4. Abre un Pull Request en este repositorio.
+   git commit -m "Añadida nueva funcionalidad"
+
+3. tu rama a tu fork:
+
+   git push origin feature/nueva-funcionalidad
+
+ Abre un Pull Request en este repositorio.
 
 ## 📄 Licencia
 
@@ -120,4 +135,5 @@ Si tienes alguna duda o comentario, no dudes en contactarme a través de
 
 Si tienes información adicional específica del proyecto, compártela para personalizar aún más el archivo. 😊
 
+## 📂 capturas de pantalla
 ¡Gracias por tu interés en este proyecto!
