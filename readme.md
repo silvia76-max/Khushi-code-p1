@@ -50,7 +50,7 @@ imagenes
 ---
 ## 🖼️ capturas de pantalla
 ![App Screenshot](https://github.com/silvia76-max/Khushi-code-p1/blob/main/img/contacto/esgrima-01.jpeg)
-[App Screenshot](https://github.com/silvia76-max/Khushi-code-p1/blob/main/img/home/background3.png)
+![App Screenshot](https://github.com/silvia76-max/Khushi-code-p1/blob/main/img/home/background3.png)
 ![App Screenshot](https://github.com/silvia76-max/Khushi-code-p1/blob/main/img/noticiasscreen.png)
 ![App Screenshot](https://github.com/silvia76-max/Khushi-code-p1/blob/main/img/formularioscreen.png)
 ![App Screenshot](https://github.com/silvia76-max/Khushi-code-p1/blob/main/img/clasesscreen.png)
