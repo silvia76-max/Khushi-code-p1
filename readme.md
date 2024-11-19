@@ -47,6 +47,8 @@ La estructura básica del proyecto es la siguiente:
 
 ![App Screenshot](https://github.com/silvia76-max/Khushi-code-p1/blob/main/img/home/background3.png)
 
+![App Screenshot]()
+
 ![App Screenshot](https://github.com/silvia76-max/Khushi-code-p1/blob/main/img/contacto/Localizaci%C3%B3n-MUXIKA-escuela.png)
 
 
@@ -68,6 +70,7 @@ Sigue los pasos a continuación para configurar y ejecutar el proyecto localment
    ```bash
    git clone https://github.com/silvia76-max/Khushi-code-p1.git
    cd Khushi-code-p1
+
 -Instala las dependencias necesarias:
 
 [pip install -r requirements.txt]
