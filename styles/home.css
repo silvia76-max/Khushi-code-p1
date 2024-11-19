@@ -1,13 +1,18 @@
 .hero {
-  background: url("../img/home/background.jpg") 0px -221px / cover;
+  background: url("../img/home/background.jpg");
   margin: 0 -6rem;
   padding: 15rem 0;
+  background-color: rgba(202, 202, 202, 0.377);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
   background-repeat: no-repeat;
 }
 
 .hero-contenido {
   display: flex;
   justify-content: center;
+  align-items: center;
   animation-name: slide;
   animation-duration: 5s;
 }
@@ -15,12 +20,13 @@
 .hero-logo {
   padding: 9rem;
   position: relative;
+  margin: 2rem;
 }
 
 .hero-logo img {
   width: 100%;
   position: absolute;
-  top: -83px;
+  top: 0px;
   left: 68px;
 }
 
@@ -122,6 +128,7 @@ p{
 .h3-about {
   text-justify: center;
 }
+
 .button-invertido {
   background-color: var(--celadon);
   color: var(--tyrian-purple);
@@ -354,12 +361,44 @@ p{
   animation-duration: 5s;
 }
 
+@media only screen and (max-width: 530px) {
+
+  .hero {
+    margin-bottom: -15rem;
+  }
+
+  .cont-p-inicio {
+    width: 100%;
+    text-align: justify;
+  }
+  .cont-img-bienvenida {
+    width: 100%;
+  }
+
+  .card {
+    width: 95%;
+  }
+
+  .card-2 {
+    width: 95%;
+  }
+
+
+  .texto-opiniones {  
+    margin-right: 0rem;
+
+  }
+
+
+
+}
+
 @media screen and (max-width: 841px) {
   body {
     background-image: none;
   }
   .hero {
-    height: 22rem;
+ 
     margin-bottom: -9rem;
   }
   .contenedor-p-img {
@@ -441,33 +480,4 @@ p{
     width: 100%;
     margin-top: 1rem;
   }
-}
-
-@media only screen and (max-width: 530px) {
-
-  .hero {
-    margin-bottom: -15rem;
-  }
-  .cont-p-inicio {
-    width: 100%;
-    text-align: justify;
-  }
-  .cont-img-bienvenida {
-    width: 100%;
-  }
-
-  .card {
-    width: 95%;
-  }
-
-  .card-2 {
-    width: 95%;
-  }
-
-
-  .texto-opiniones {  
-    margin-right: 0rem;
-
-  }
-
 }
