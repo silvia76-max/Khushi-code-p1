@@ -16,6 +16,14 @@
 	 font-size: larger;
   }
 
+  .card{
+	border-radius: 2rem;
+	
+  }
+  .row{
+	width: 80%;
+	margin: 0 auto;
+  }
   .contenedor{
 	 display: flex;
 	 flex-direction: column;
