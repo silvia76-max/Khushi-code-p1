@@ -142,7 +142,7 @@ table {
 
 /* --cambiar fuente:*/
 h1 {
-  color: var(--celadon);
+  color: var(--celadon); 
   font-family: "Philosopher", "Gill Sans MT", Calibri, "Trebuchet MS",
     sans-serif;
   font-size: 2.3rem;
@@ -294,20 +294,13 @@ a:hover {
     color: var(--tyrian-purple);
     }
   
-      
-      
-    
- 
-
-
-
-
 .button {
 	background-color: var(--tyrian-purple); /* Green */
 	border: none;
 	border-radius: 0.5rem;
 	color: var(--celadon);
-	padding: 15px 32px;
+  margin: 2rem;
+	padding: 1rem 2rem;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
@@ -322,6 +315,26 @@ a:hover {
 	background-color: var(--celadon);
 	color: var(--tyrian-purple);
   }
+
+  .button-invertido {
+    background-color: var(--celadon);
+    color: var(--tyrian-purple);
+    border: 0.1rem solid var(--celadon);
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    margin: 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition-duration: 0.1s;
+  }
+  .button-invertido:hover {
+    background-color: var(--tyrian-purple);
+    color: var(--celadon);
+  }     
 
 
 
@@ -413,7 +426,7 @@ section{
 /* Separador */
 
 .separador{
-    margin-top: 10rem;
+    margin-top: 15rem;
     position: relative;
 }
 
@@ -499,18 +512,20 @@ footer {
   position: absolute; 
   bottom: 0; 
   left: 0; 
-  
-}
+ }
 
-.footer-bottom{
+.footer-bottom {
    text-align: center;
    padding: 0.5rem;
     background-color: var(--tyrian-purple);
    color: white;
    font-size: 15px;
-  
-}
+  }
 
+.footer-bottom > p {
+  text-align: center;
+  margin: 0 auto;
+}
 
 
 .redessociales{
@@ -580,13 +595,14 @@ header {
   .navigator {
       display: flex;
       flex-direction: column;
-      padding-right: 2rem;
       color: var(--celadon);
-      padding-left: 3rem;
       line-height: 0.5;
-      padding-top: 0rem;
       text-align: center;
   }
+
+ul.nav1  {
+  background-color: var(--bittersweet);
+}
 
 .navigator img{
   height: 80px;

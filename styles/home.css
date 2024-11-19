@@ -129,24 +129,7 @@ p{
   text-justify: center;
 }
 
-.button-invertido {
-  background-color: var(--celadon);
-  color: var(--tyrian-purple);
-  border: 0.1rem solid var(--celadon);
-  border-radius: 0.5rem;
-  padding: 1rem 2rem;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition-duration: 0.1s;
-}
-.button-invertido:hover {
-  background-color: var(--tyrian-purple);
-  color: var(--celadon);
-}
+
 
 .card ul {
   list-style-type: disc;
@@ -422,16 +405,21 @@ p{
   .cont-p-inicio {
     width: 90%;
     margin-bottom: 1rem;
+    min-width: 250px;
   }
   .cards-container {
     width: 100%;
   }
   .card {
     width: 45%;
+    min-width: 250px;
+    font-size: 0.8rem;
   }
 
   .card-2 {
     width: 45%;
+    min-width: 250px;
+    font-size: 0.8rem;
   }
 
   .contenedor-p-img-3 {
