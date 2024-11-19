@@ -411,6 +411,7 @@ p{
   .cont-inicio-1 {
     flex-direction: column;
     align-items: center;
+    margin-top: 10rem;
   }
 
   .cont-img-bienvenida {
