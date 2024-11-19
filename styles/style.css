@@ -216,6 +216,12 @@ a:hover {
 
 /* ---- BARRA SUPERIOR DE NAVEGACIÓN ---- */
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
 .navigator input,
 .nav1 {
   display: none;
@@ -399,10 +405,52 @@ footer {
   font-size:0.8rem;
 }
 
+.titulo-clases {
+  background: url(../img/clases/esgrima-clases-cabecera.jpg);
+  background-size:   cover;
+  background-position-y: 50%;
+  height: 22rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo-clases h1{
+  color: var(--celadon);
+  font-family: "Philosopher", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.titulo-noticias {
+  background: url(../img/noticias/esgrima-cabecera-noticias.jpg);
+  background-size:   cover;
+  background-position-y: 50%;
+  height: 22rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(180, 104, 187, 0.5);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: screen;
+}
+
+.titulo-noticias h1{
+  color: var(--tyrian-purple);
+  font-family: "Philosopher", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 @media only screen and (max-width: 840px) {
   
 header {
-    position: relative;
+    position: sticky;
+    top: 0;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -431,14 +479,20 @@ header {
   margin: 1rem;
   font-size: 2rem;
   border: 1px solid;
-  padding: 1rem;
+  padding: 0;
 }
 
-.navigator li:active{
+.nav1 li a {
+  display: block; 
+  padding: 1rem; 
+  text-decoration: none; 
+  color: inherit; 
+}
+
+.nav1 li a:active, .nav1 li a:hover {
   background-color: var(--azul-claro);
   color: var(--violet-jtc);
 }
-
 
 .contenedor {
     display: flex;
