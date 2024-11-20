@@ -125,6 +125,35 @@
         </div>
       </article>
 
+
+    <div class="paraelboton">
+      <button class="buttonDescuento2" type="button" id="openPopup">Código -10%: ESGRIMANOVIEMBRE</button>
+  </div>
+
+  <div class="popup" id="popup">
+    <button class="close-btn" id="closePopup">X</button>
+    <span class="estiloPopup">Utiliza el código <b>ESGRIMANOVIEMBRE</b> para obtener un 10% de descuento en la primera cuota.</span>
+    <a href="contact.html" class="button">Inscripción</a>
+    
+  </div>
+
+  <script>
+    
+    const openPopupButton = document.getElementById('openPopup');
+    const closePopupButton = document.getElementById('closePopup');
+    const popup = document.getElementById('popup');
+    
+    openPopupButton.addEventListener('click', () => {
+    popup.style.display = 'block';
+    
+    });
+
+    closePopupButton.addEventListener('click', () => {
+      popup.style.display = 'none';
+    });
+
+  </script>
+
       <!--opiniones-->
       <h3 class="h3-inicio-opiniones separador">Opiniones</h3>
       <article class="contenedor-p-img-3">
@@ -168,34 +197,6 @@
       </div>
     </section>
 
-    <div class="paraelboton">
-        <button class="buttonDescuento2" type="button" id="openPopup">Código -10%: ESGRIMANOVIEMBRE</button>
-    </div>
-
-    <div class="popup" id="popup">
-      <button class="close-btn" id="closePopup">X</button>
-      <span class="estiloPopup">Utiliza el código <b>ESGRIMANOVIEMBRE</b> para obtener un 10% de descuento en la primera cuota.</span>
-      <a href="contact.html" class="button">Inscripción</a>
-      
-    </div>
-
-    <script>
-      
-      const openPopupButton = document.getElementById('openPopup');
-      const closePopupButton = document.getElementById('closePopup');
-      const popup = document.getElementById('popup');
-      
-      openPopupButton.addEventListener('click', () => {
-      popup.style.display = 'block';
-      
-      });
-  
-      closePopupButton.addEventListener('click', () => {
-        popup.style.display = 'none';
-      });
-  
-    </script>
-    
   </main>
 <!---- footer  section-->  
   <footer>
