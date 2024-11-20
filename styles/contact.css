@@ -74,6 +74,7 @@ padding: 0;
 section.contacto {
    display: flex;
    justify-content: center;
+   flex-wrap: wrap;
    width: 70%;
    gap: 3rem;
 }
@@ -82,13 +83,16 @@ section.contacto .texto-interno {
     display: flex;
     flex-direction: column;
     justify-content: center;
-color: black;
-padding: 0 1.8rem;
-line-height: 2rem;
+    color: black;
+    padding: 0 1.8rem;
+    line-height: 2rem;
+    width: 45%;
 }
 
 section.contacto img{
-    width: 33rem;
+    max-width: 33rem;
+    width: 45%;
+    object-fit: cover;
     border-radius: 1.8rem;
 }
 
@@ -149,6 +153,105 @@ section.contacto h3{
 	color: var(--celadon); 
     font-size: 2rem;
 }
+
+/* -------------- FAQ ------------------*/
+section.faq {
+    width: 50%;
+    background-color: var(--backtrans);
+    border-radius: 2rem;
+    padding: 3rem 1rem;
+}
+
+
+  section.faq h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    color: var(--tyrian-purple);
+  }
+  
+  details {
+    width: 80%;
+    min-height: 5px;
+    max-width: 700px;
+    padding: 45px 70px 45px 45px;
+    margin: 0 auto;
+    position: relative;
+    font-size: 22px;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 1rem;
+    box-sizing: border-box;
+    transition: all .3s;
+    color: var(--tyrian-purple);
+    background-color: var(--celadon);
+  }
+  
+  details + details {
+    margin-top: 2rem;
+  }
+  
+  details[open] {
+    min-height: 50px;
+    background-color: #f6f7f8;
+    box-shadow: 2px 2px 20px var(--violet-jtc);
+  }
+  
+  details p {
+    color: #454749;
+    font-weight: 300;
+  }
+  
+  summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  
+  }
+  
+  summary:focus {
+    outline: none;
+  }
+
+  details:hover {
+    box-shadow: 0 0 0 0.1rem var(--violet-jtc);
+
+  }
+  
+  summary:focus::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 0 0.1rem var(--violet-jtc);
+    border-radius: 1rem;
+  }
+
+  
+  .control-icon {
+    color: var(--violet-jtc);
+    transition: .3s ease;
+    pointer-events: none;
+  }
+  
+  .control-icon-close {
+    display: none;
+  }
+  
+  details[open] .control-icon-close {
+    display: initial;
+    transition: 1s ease;
+  }
+  
+  details[open] .control-icon-expand {
+    display: none;
+  }
+  /* -----------------------------*/
 
 .google-maps {
     width: 100%;
