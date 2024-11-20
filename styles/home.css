@@ -11,6 +11,7 @@
 
 .hero-contenido {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   animation-name: slide;
@@ -18,16 +19,16 @@
 }
 
 .hero-logo {
-  padding: 9rem;
+  padding: 8rem;
   position: relative;
-  margin: 2rem;
+
 }
 
 .hero-logo img {
   width: 100%;
   position: absolute;
   top: 0px;
-  left: 68px;
+  left: 0;
 }
 
 .hero-info h2 {
@@ -465,6 +466,13 @@ background:var(--bittersweet);
     margin-bottom: -15rem;
   }
 
+  .hero-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .cont-p-inicio {
     width: 100%;
     text-align: justify;
@@ -494,6 +502,8 @@ background:var(--bittersweet);
   color:black;
 }
 
+
+
 @media screen and (max-width: 841px) {
   body {
     background-image: none;
@@ -502,6 +512,8 @@ background:var(--bittersweet);
  
     margin-bottom: -9rem;
   }
+
+
   .contenedor-p-img {
     display: flex;
     flex-direction: column;
