@@ -1,0 +1,259 @@
+
+.titulo-contacto {
+    background: url(../img/contacto/esgrima-01.jpeg);
+    background-size:   cover;
+    background-position-y: 10%;
+    height: 22rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-contacto h1{
+    font-size: 5rem;
+    color: var(--tyrian-purple);
+}
+
+main {
+padding: 0;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.separador{
+    margin-top: 10rem;
+    position: relative;
+}
+
+.separador::before{
+    content: "";
+    display: block;
+    position: absolute;
+
+    top: -12rem;
+    left: 50%;
+    transform: translateX(-50%); /* Centrar horizontalmente */
+  
+
+    width: 250px; /* Ajusta el ancho */
+    height: 200px; /* Ajusta el alto */
+
+    background-image: url("../img/espadas-separador.svg");
+    background-size: 250px 250px; /* Ajusta el tamaño deseado */
+    background-repeat: no-repeat;
+
+    filter: invert(1) sepia(1) saturate(0) hue-rotate(0deg);  /* Usa el https://angel-rs.github.io/css-color-filter-generator/ para cambiar los colores visualmente */
+    
+}
+
+.ilustracion-marisa {
+    position: relative;
+}
+
+.ilustracion-marisa::before{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -9px;
+    left: 728px;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 732px;
+    background-image: url("../img/ilustraciones/ilustracion-esgrima-marisa..png");
+    background-size: 300px 600px;
+    background-repeat: no-repeat;
+    filter: opacity(30%);
+
+}
+
+section.contacto {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   width: 70%;
+   gap: 3rem;
+}
+
+section.contacto .texto-interno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    padding: 0 1.8rem;
+    line-height: 2rem;
+    width: 45%;
+}
+
+section.contacto img{
+    max-width: 33rem;
+    width: 45%;
+    object-fit: cover;
+    border-radius: 1.8rem;
+}
+
+section.contacto h2, 
+section.contacto h3{
+    color: var(--tyrian-purple);
+    margin-bottom: .8rem;
+}
+
+.formulario {
+    border-radius: 1.8rem;
+   
+    padding: 2rem;
+    background-color: var(--violet-jtc);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 0 0;
+}
+
+.formulario label {
+    font-size: 1.5rem;
+    color: var(--azul-claro);
+}
+
+.formulario input {
+  font-size: 1.2rem;
+  color: var(--bittersweet);
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.formulario textarea {
+    height: 150px; 
+    padding: 1rem;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    color: var(--bittersweet);
+}
+
+.button {
+    margin: 2rem 0 0;
+	background-color: var(--celadon); 
+    border: 3px solid transparent;
+	color: var(--tyrian-purple);
+    font-size: 2rem;
+}
+
+.button:hover {
+    margin: 2rem 0 0;
+	border: 3px solid var(--celadon); 
+    background-color: var(--tyrian-purple);
+	color: var(--celadon); 
+    font-size: 2rem;
+}
+
+/* -------------- FAQ ------------------*/
+section.faq {
+    width: 50%;
+    background-color: var(--backtrans);
+    border-radius: 2rem;
+    padding: 3rem 1rem;
+}
+
+
+  section.faq h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    color: var(--tyrian-purple);
+  }
+  
+  details {
+    width: 80%;
+    min-height: 5px;
+    max-width: 700px;
+    padding: 45px 70px 45px 45px;
+    margin: 0 auto;
+    position: relative;
+    font-size: 22px;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 1rem;
+    box-sizing: border-box;
+    transition: all .3s;
+    color: var(--tyrian-purple);
+    background-color: var(--celadon);
+  }
+  
+  details + details {
+    margin-top: 2rem;
+  }
+  
+  details[open] {
+    min-height: 50px;
+    background-color: #f6f7f8;
+    box-shadow: 2px 2px 20px var(--violet-jtc);
+  }
+  
+  details p {
+    color: #454749;
+    font-weight: 300;
+  }
+  
+  summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  
+  }
+  
+  summary:focus {
+    outline: none;
+  }
+
+  details:hover {
+    box-shadow: 0 0 0 0.1rem var(--violet-jtc);
+
+  }
+  
+  summary:focus::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 0 0.1rem var(--violet-jtc);
+    border-radius: 1rem;
+  }
+
+  
+  .control-icon {
+    color: var(--violet-jtc);
+    transition: .3s ease;
+    pointer-events: none;
+  }
+  
+  .control-icon-close {
+    display: none;
+  }
+  
+  details[open] .control-icon-close {
+    display: initial;
+    transition: 1s ease;
+  }
+  
+  details[open] .control-icon-expand {
+    display: none;
+  }
+  /* -----------------------------*/
+
+.google-maps {
+    width: 100%;
+    height: 500px;
+}
